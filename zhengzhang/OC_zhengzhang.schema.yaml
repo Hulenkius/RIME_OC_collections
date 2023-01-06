@@ -1,0 +1,132 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  name: 上古漢語（鄭張-潘）
+  schema_id: ZP2003
+  version: "2023.01.04"
+  author:
+    - hulenkius <hulenkius@gmail.com>
+    - github.com/Hulenkius/rime_ZP2003
+  description: |
+    鄭張-潘音系轉寫
+    ɯ 作 y　　ɦ 作 hh 或 f
+    ʔ 作 x　　ɢ 作 gg 或 v
+    ' 作 c　　ʰ、◌̥ʰ 作 h
+    ŋ 作 ng　　· 不寫
+    長音雙寫
+  dependencies:
+    - cangjie5
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - reverse_lookup_translator
+    - script_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - derive/gg/v/
+    - derive/hh/f/
+
+translator:
+  dictionary: djangskaax
+  enable_completion: true
+  comment_format:
+    - 'xform/^(.*)$/‹\U$1\E›\ \*$1/'
+    - xform/ngh/ŋ̊ʰ/
+    - xform/mh/m̥ʰ/
+    - xform/nh/n̥ʰ/
+    - xform/rh/r̥ʰ/
+    - xform/lh/l̥ʰ/
+    - xform/y/ɯ/
+    - xform/c/'/
+    - xform/ng/ŋ/
+    - xform/y/ɯ/
+    - xform/x/ʔ/
+    - xform/aa/aː/
+    - xform/ee/eː/
+    - xform/ii/iː/
+    - xform/oo/oː/
+    - xform/uu/uː/
+    - xform/ɯɯ/ɯː/
+    - xform/gg/ɢ/
+    - xform/hh/ɦ/
+    - xform/([ptkqs])h/$1ʰ/
+    - xform/([gkhŋqɢʰ])w/$1ʷ/
+    - xlit/QWERTYUIOPLKJHGFDSAZXCVBNM/qwertyuioplkjhgfdsazxcvbnm/
+  spelling_hints: 12
+
+reverse_lookup:
+  dictionary: cangjie5
+  enable_completion: true
+  prefix: "`"
+  suffix: "'"
+  tips: 〔倉頡〕
+  preedit_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+  comment_format:
+    - 'xform/^(.*)$/\U$1\E\*$1/'
+    - xform/ngh/ŋ̊ʰ/
+    - xform/mh/m̥ʰ/
+    - xform/nh/n̥ʰ/
+    - xform/rh/r̥ʰ/
+    - xform/lh/l̥ʰ/
+    - xform/y/ɯ/
+    - xform/c/'/
+    - xform/ng/ŋ/
+    - xform/y/ɯ/
+    - xform/x/ʔ/
+    - xform/aa/aː/
+    - xform/ee/eː/
+    - xform/ii/iː/
+    - xform/oo/oː/
+    - xform/uu/uː/
+    - xform/ɯɯ/ɯː/
+    - xform/gg/ɢ/
+    - xform/hh/ɦ/
+    - xform/([ptkqs])h/$1ʰ/
+    - xform/([gkhŋqɢʰ])w/$1ʷ/
+    - xlit/QWERTYUIOPLKJHGFDSAZXCVBNM/qwertyuioplkjhgfdsazxcvbnm/
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"

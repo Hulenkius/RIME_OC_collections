@@ -4,7 +4,7 @@
 schema:
   name: 古典漢語（MSOEG）
   schema_id: OC_msoeg
-  version: "2023.01.061"	
+  version: "2023.01.062"	
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
@@ -69,6 +69,10 @@ speller:
     - derive/\(x\)/x/
     - derive/\(x\)//
     - derive/hh/f/
+    - derive/i/j/
+    - derive/j/i/
+    - derive/u/w/
+    - derive/w/u/
 
 translator:
   dictionary: OC_msoeg

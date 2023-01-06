@@ -4,7 +4,7 @@
 schema:
   name: 上古漢語（許思萊）
   schema_id: OC_schuesslerOC
-  version: "2023.01.06"	
+  version: "2023.01.061"	
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
@@ -13,7 +13,7 @@ schema:
     ^ - 不寫　　
     ɦ 作 hh 或 f　　ə 作 y　　ŋ 作 ng
     i 與 j、u 與 w 可淆 　　ʔ 作 x
-    z 鍵引導畢鶚擬音　　C N 可不寫
+    z 鍵引導畢鶚擬音　　C 可不寫
     
   dependencies:
     - cangjie5
@@ -59,12 +59,8 @@ speller:
   algebra:
     - xform/(\*).+$//
     - derive/hh/f/
-    - derive/aa/a/
-    - derive/gg/v/
-    - derive/ji/i/
     - derive/i/j/
     - derive/j/i/
-    - derive/wu/u/
     - derive/u/w/
     - derive/w/u/
     - derive/hw/wh/
@@ -74,10 +70,9 @@ speller:
     - derive/C//
     - derive/\疑//
     # 以下爲畢鶚擬音
-    - derive/Ⓦ/z/
+    - derive/Ⓑ/z/
     - derive/N/n/
     - derive/N/nn/
-    - derive/N//
     - derive/\(w\)/w/
     - derive/\(w\)//
     - derive/\(r\)/r/
@@ -103,9 +98,9 @@ translator:
     - xform/((\*).+)›/›\ $1/
     - derive/\疑//
     # 畢鶚
-    - xform/‹Ⓦ/Ⓦ‹/
-    - xform/</\ </
-    - xform/>/\ >/
+    - xform/‹Ⓑ/Ⓑ‹/
+    - xform/</\ ⬅️\ /
+    - xform/>/\ ➡️\ /
     
 reverse_lookup:
   dictionary: cangjie5

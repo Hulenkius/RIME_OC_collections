@@ -4,7 +4,7 @@
 schema:
   name: 古典漢語（MSOEG）
   schema_id: OC_msoeg
-  version: "2023.01.06"	
+  version: "2023.01.061"	
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
@@ -58,6 +58,17 @@ speller:
   delimiter: " '"
   algebra:
     - xform/(\*).+$//
+    - derive/\(j\)/j/
+    - derive/\(j\)//
+    - derive/\(r\)/r/
+    - derive/\(r\)//
+    - derive/\(u\)/u/
+    - derive/\(u\)//
+    - derive/\(w\)/w/
+    - derive/\(w\)//
+    - derive/\(x\)/x/
+    - derive/\(x\)//
+    - derive/hh/f/
 
 translator:
   dictionary: OC_msoeg
@@ -69,6 +80,9 @@ translator:
   comment_format:
     - xform/^(.*)$/‹$1›
     - xform/((\*).+)›/›\ $1/
+    # 對應拼音
+    - xform/（/\ ➡️\ /
+    - xform/）//
     
 reverse_lookup:
   dictionary: cangjie5

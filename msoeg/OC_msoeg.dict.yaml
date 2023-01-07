@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 name: OC_msoeg
-version: "2023.01.061"
+version: "2023.01.08"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -1444,8 +1444,8 @@ use_preset_vocabulary: true
 晤	ngxah*ŋˁah（wù）
 誤	ngwxah*ŋwˁah（wù）
 遻	ngxah*ŋˁah（wù）
-乎	(ʕ)a*(ʕ)a（hū）
-乎	(ʕ)a*(ʕ)a（hū）
+乎	(x)a*(ʕ)a（hū）
+乎	(x)a*(ʕ)a（hū）
 壺	wxa*[w]ˁa（hú）
 弧	wxa*wˁa（hú）
 湖	gxa*gˁa（hú）
@@ -3207,7 +3207,7 @@ use_preset_vocabulary: true
 槷	ngxet*ŋˁɛt（niè）
 闑	ngxet*ŋˁɛt（niè）
 齧	ngxet*ŋˁɛt（niè）
-兮	(ʕ)e*(ʕ)ɛ（xī）
+兮	(x)e*(ʕ)ɛ（xī）
 奚	gxe*gˁɛ（xī）
 奚	gxe*gˁɛ（xī）
 蹊	gxe*gˁɛ（xī）

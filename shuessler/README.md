@@ -9,7 +9,7 @@
 ---
 許思萊擬音依照歷史分期，對應兩個輸入方案：一是上古漢語（Old Chinese），對應 `OC_schuesslerOC` 方案；二是東漢漢語（Later *Hàn* Chinese），對應 `OC_schuesslerLHC` 方案。兩套方案的輸入轉寫規則稍異。
 
-畢鶚（Wolfgang Behr）的金文擬音同許氏的上古漢語擬音比較相似，合併到一起。
+畢鶚（Wolfgang Behr）的金文擬音同許氏的上古漢語擬音比較相似，合併到一起。輸入時提示的 `Ⓑ` 準此。
 
 ## 上古漢語方案轉寫說明
 

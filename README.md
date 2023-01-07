@@ -12,4 +12,4 @@
 
 進入對應目錄可查看相應的方案介紹、轉寫說明。
 
-在網頁電腦端撳「Code」按鈕，選擇「[Download ZIP](https://github.com/Hulenkius/vistudium/archive/refs/heads/main.zip)」即可打包下載。你也可以使用其他 git 下載方式。
+在網頁電腦端撳「Code」按鈕，選擇「[Download ZIP](https://codeload.github.com/Hulenkius/RIME_OC_collections/zip/refs/heads/main)」即可打包下載。你也可以使用其他 git 下載方式。

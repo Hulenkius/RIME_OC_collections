@@ -4,7 +4,7 @@
 schema:
   name: 上古漢語（許思萊）
   schema_id: OC_schuesslerOC
-  version: "2023.01.061"	
+  version: "2023.01.08"	
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
@@ -13,7 +13,7 @@ schema:
     ^ - 不寫　　
     ɦ 作 hh 或 f　　ə 作 y　　ŋ 作 ng
     i 與 j、u 與 w 可淆 　　ʔ 作 x
-    z 鍵引導畢鶚擬音　　C 可不寫
+    z 鍵引導畢鶚擬音
     
   dependencies:
     - cangjie5
@@ -67,7 +67,6 @@ speller:
     - derive/\-//
     - derive/C/c/
     - derive/C/cc/
-    - derive/C//
     - derive/\疑//
     # 以下爲畢鶚擬音
     - derive/Ⓑ/z/

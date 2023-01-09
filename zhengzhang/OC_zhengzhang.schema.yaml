@@ -4,7 +4,7 @@
 schema:
   name: 上古漢語（鄭張尚芳）
   schema_id: OC_zhengzhang
-  version: "2023.01.09"
+  version: "2023.01.091"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
@@ -47,8 +47,8 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
+    - r10n_translator
     - reverse_lookup_translator
-    - script_translator
   filters:
     - simplifier
     - uniquifier
@@ -69,9 +69,9 @@ speller:
 
 translator:
   dictionary: OC_zhengzhang
+  prism: OC_zhengzhang
+  spelling_hints: 1
   enable_completion: true
-  comment_format:
-  spelling_hints: 12
   preedit_format:
     - xform/(\*).+$//
   comment_format:
@@ -90,7 +90,7 @@ reverse_lookup:
     - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
 
 punctuator:
-  import_preset: symbols
+  import_preset: default
 
 key_binder:
   import_preset: default

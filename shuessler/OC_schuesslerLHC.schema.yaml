@@ -4,7 +4,7 @@
 schema:
   name: 東漢漢語（許思萊）
   schema_id: OC_schuesslerLHC
-  version: "2023.01.06"	
+  version: "2023.01.09"	
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
@@ -70,7 +70,7 @@ speller:
 translator:
   dictionary: OC_schuesslerLHC
   prism: OC_schuesslerLHC
-  spelling_hints: 1  # 〜字以內候選標註完整帶調拼音
+  spelling_hints: 1
   enable_completion: true
   preedit_format:
     - xform/(\*).+$//

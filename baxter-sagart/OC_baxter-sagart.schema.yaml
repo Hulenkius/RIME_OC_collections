@@ -4,7 +4,7 @@
 schema:
   name: 上古漢語（白-沙2014）
   schema_id: OC_baxter-sagart
-  version: "2023.01.08"
+  version: "2023.01.09"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
@@ -103,7 +103,7 @@ speller:
 translator:
   dictionary: OC_baxter-sagart
   prism: OC_baxter-sagart
-  spelling_hints: 1  # 〜字以內候選標註完整帶調拼音
+  spelling_hints: 1
   enable_completion: true
   preedit_format:
     - xform/(\*).+$//

@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 name: OC_zhengzhang
-version: "2022.12.08"
+version: "2022.12.092"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -1433,7 +1433,7 @@ use_preset_vocabulary: true
 塵	rdyn*rdɯn
 疢	lhyns*l̥ʰɯns
 齔	shrinx*shrinʔ
-齔	sphrins?*spʰrins?
+齔	?sphrins*spʰrins
 齔	Ⓛshrins*shrins
 讖	shrims*shrims
 稱	thjyng*tʰjɯŋ
@@ -2086,7 +2086,7 @@ use_preset_vocabulary: true
 貚	deen*deːn
 丼	kloomxc*kloːmʔ'
 丼	Ⓛtoomxc*toːmʔ'
-皽	tjaʀ*tjaʀ
+皽	tjarr*tjaʀ
 皽	Ⓛtjaw*tjaw
 担	taanx*taːnʔ
 胆	daan*daːn

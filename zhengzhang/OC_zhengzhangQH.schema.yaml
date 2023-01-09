@@ -67,6 +67,8 @@ speller:
     - derive/hw/wh/
     - derive/i/j/
     - derive/j/i/
+    - derive/aeae/aae/
+    - derive/aeae/aee/
     - derive/\?//
 
 translator:

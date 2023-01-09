@@ -2,9 +2,9 @@
 # encoding: utf-8
 
 schema:
-  name: 上古漢語（鄭張-潘）
-  schema_id: ZP2003
-  version: "2023.01.04"
+  name: 上古漢語（鄭張尚芳）
+  schema_id: OC_zhengzhang
+  version: "2023.01.08"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
@@ -57,36 +57,27 @@ speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
+    - xform/(\*).+$//
     - derive/gg/v/
     - derive/hh/f/
+    - derive/u/w/
+    - derive/w/u/
+    - derive/i/j/
+    - derive/j/i/
+    - derive/Ⓛ//
 
 translator:
-  dictionary: djangskaax
+  dictionary: OC_zhengzhang
   enable_completion: true
   comment_format:
-    - 'xform/^(.*)$/‹\U$1\E›\ \*$1/'
-    - xform/ngh/ŋ̊ʰ/
-    - xform/mh/m̥ʰ/
-    - xform/nh/n̥ʰ/
-    - xform/rh/r̥ʰ/
-    - xform/lh/l̥ʰ/
-    - xform/y/ɯ/
-    - xform/c/'/
-    - xform/ng/ŋ/
-    - xform/y/ɯ/
-    - xform/x/ʔ/
-    - xform/aa/aː/
-    - xform/ee/eː/
-    - xform/ii/iː/
-    - xform/oo/oː/
-    - xform/uu/uː/
-    - xform/ɯɯ/ɯː/
-    - xform/gg/ɢ/
-    - xform/hh/ɦ/
-    - xform/([ptkqs])h/$1ʰ/
-    - xform/([gkhŋqɢʰ])w/$1ʷ/
-    - xlit/QWERTYUIOPLKJHGFDSAZXCVBNM/qwertyuioplkjhgfdsazxcvbnm/
   spelling_hints: 12
+  preedit_format:
+    - xform/(\*).+$//
+  comment_format:
+    - xform/^(.*)$/‹$1›
+    - xform/((\*).+)›/›\ $1/
+    - xform/‹ⓁⓁ/ⓁⓁ‹/
+    - xform/‹Ⓛ/Ⓛ‹/
 
 reverse_lookup:
   dictionary: cangjie5
@@ -96,29 +87,6 @@ reverse_lookup:
   tips: 〔倉頡〕
   preedit_format:
     - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
-  comment_format:
-    - 'xform/^(.*)$/\U$1\E\*$1/'
-    - xform/ngh/ŋ̊ʰ/
-    - xform/mh/m̥ʰ/
-    - xform/nh/n̥ʰ/
-    - xform/rh/r̥ʰ/
-    - xform/lh/l̥ʰ/
-    - xform/y/ɯ/
-    - xform/c/'/
-    - xform/ng/ŋ/
-    - xform/y/ɯ/
-    - xform/x/ʔ/
-    - xform/aa/aː/
-    - xform/ee/eː/
-    - xform/ii/iː/
-    - xform/oo/oː/
-    - xform/uu/uː/
-    - xform/ɯɯ/ɯː/
-    - xform/gg/ɢ/
-    - xform/hh/ɦ/
-    - xform/([ptkqs])h/$1ʰ/
-    - xform/([gkhŋqɢʰ])w/$1ʷ/
-    - xlit/QWERTYUIOPLKJHGFDSAZXCVBNM/qwertyuioplkjhgfdsazxcvbnm/
 
 punctuator:
   import_preset: symbols

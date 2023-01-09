@@ -9,7 +9,7 @@
 schema:
   name: 秦漢漢語（鄭張尚芳[推導]）
   schema_id: OC_zhengzhangQH
-  version: "2023.01.09"
+  version: "2023.01.10"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
@@ -65,6 +65,7 @@ speller:
     - derive/u/w/
     - derive/w/u/
     - derive/hw/wh/
+    - derive/rw/wr/
     - derive/i/j/
     - derive/j/i/
     - derive/aeae/aae/
@@ -81,7 +82,7 @@ translator:
   comment_format:
     - xform/^(.*)$/‹$1›
     - xform/((\*).+)›/›\ $1/
-    - derive/\?//
+    - xform/‹\?/\?‹/
 
 reverse_lookup:
   dictionary: cangjie5

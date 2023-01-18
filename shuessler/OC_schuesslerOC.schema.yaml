@@ -4,7 +4,7 @@
 schema:
   name: 上古漢語（許思萊）
   schema_id: OC_schuesslerOC
-  version: "2023.01.192"	
+  version: "2023.01.193"	
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
@@ -64,10 +64,8 @@ speller:
     - derive/\_//
     - derive/\_x//
     - derive/\-x//
-    - derive/hm/mh/
     # 以下爲主體
     - derive/^x//
-    - derive/h$/s/
     - derive/hh/f/
     - derive/i/j/
     - derive/j/i/

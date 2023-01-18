@@ -1,7 +1,7 @@
 # enCoding: utf-8
 ---
 name: OC_schuesslerOC
-version: "2023.01.181"		
+version: "2023.01.182"		
 sort: original
 use_preset_vocabulary: true
 ...
@@ -10101,7 +10101,7 @@ use_preset_vocabulary: true
 槮	srym*srəm
 槮	tshrym*tsʰrəm
 槮	ksrym*k-srəm
-摻	srym *srə̂mʔ
+摻	srymx*srə̂mʔ
 摻	srym*srə̂m
 三	sym*sə̂m
 三	syms*sə̂ms
@@ -10170,7 +10170,7 @@ use_preset_vocabulary: true
 遲	dlyj*d-ləj
 遲	dli*d-li
 窈窕	xjux-djux*ʔjûʔ-djûʔ
-窈糾	xjux-kaux*ʔjûʔ-kauʔ
+窈糾	xjux-kawx*ʔjûʔ-kawʔ
 窕	djux*djûʔ
 姮	gyng*gə̂ŋ
 姮娥	gyng-ngaj*gə̂ŋ-ŋâj

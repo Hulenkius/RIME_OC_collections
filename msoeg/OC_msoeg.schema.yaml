@@ -4,7 +4,7 @@
 schema:
   name: 古典漢語（MSOEG）
   schema_id: OC_msoeg
-  version: "2023.01.09"	
+  version: "2023.01.18"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
@@ -73,6 +73,8 @@ speller:
     - derive/j/i/
     - derive/u/w/
     - derive/w/u/
+    - derive/喉/x/
+    - derive/喉//
 
 translator:
   dictionary: OC_msoeg
@@ -84,6 +86,7 @@ translator:
   comment_format:
     - xform/^(.*)$/‹$1›
     - xform/((\*).+)›/›\ $1/
+    - derive/喉/x/
     # 對應拼音
     - xform/（/\ ➡️\ /
     - xform/）//
@@ -99,6 +102,7 @@ reverse_lookup:
   comment_format:
     - xform/^(.*)$/$1
     - xform/((\*).+)/$1/
+    - derive/喉/x/
   
 punctuator:
   import_preset: default

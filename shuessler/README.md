@@ -9,9 +9,9 @@
 ---
 許思萊擬音依照歷史分期，對應兩個輸入方案：一是上古漢語（Old Chinese），對應 `OC_schuesslerOC` 方案；二是東漢漢語（Later *Hàn* Chinese），對應 `OC_schuesslerLHC` 方案。兩套方案的輸入轉寫規則稍異。
 
-Geoffrey Sampson 在其著作《Voices from Early China》中給出了詩經全文的許氏擬音，但對擬音細節有所修改。正字後合併到一起，用 `Ⓖ` 標記，以示區分。
+[散復生（Geoffrey Sampson）](https://www.grsampson.net/)在其著作《[Voices from Early China](https://www.cambridgescholars.com/product/978-1-5275-5212-8)》中給出了詩經全文的許氏擬音，但對擬音細節有所修改。正字後合併到一起，用 `Ⓖ` 標記，以示區分。
 
-畢鶚（Wolfgang Behr）的金文擬音同許氏的上古漢語擬音比較相似，合併到一起，標記了 `Ⓑ` 的候選準此。
+[畢鶚（Wolfgang Behr）](https://www.aoi.uzh.ch/en/sinologie/persons/professoren/behr.html)的[金文擬音](https://www.researchgate.net/publication/281215287_Reimende_Bronzeinschriften_und_die_Entstehung_der_chinesischen_Endreimdichtung)同許氏的上古漢語擬音比較相似，合併到一起，標記了 `Ⓑ` 的候選準此。
 
 ## 上古漢語方案轉寫說明
 

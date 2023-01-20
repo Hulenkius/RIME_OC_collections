@@ -1,5 +1,8 @@
 # RIME_OC_collections
 
+![Title](https://user-images.githubusercontent.com/32562298/213803086-ee90a096-9f5f-4ba2-8ed9-7db4f2188549.jpg)
+
+
 本倉庫用於分享一些上古漢語擬音的 RIME 輸入方案。
 
 目前已收錄如下方案：

@@ -8,7 +8,7 @@
 > [*百越闲人 2019.09.23*](https://www.zhihu.com/question/334162615/answer/743574006)
 
 ---
-輸入時提示的 `?` `Ⓔ` `Ⓛ` `Ⓧ` 爲白沙在線表格中 `?` `<` `>` `"should be"前的音` 的等效標記。
+輸入時提示的 `?` `Ⓔ` `Ⓛ` `Ⓧ` 爲[白沙在線表格](https://ocbaxtersagart.lsait.lsa.umich.edu/)中 `?` `<` `>` `"should be"前的音` 的等效標記。
 
 ## 轉寫說明
 

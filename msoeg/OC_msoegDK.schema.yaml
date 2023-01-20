@@ -2,19 +2,19 @@
 # encoding: utf-8
 
 schema:
-  name: 古典漢語（MSOEG）
-  schema_id: OC_msoeg
+  name: 上古漢語（MSOEG, 布之道）
+  schema_id: OC_msoegDK
   version: "2023.01.21"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
   description: |
-    上古音輸入方案：msoeg 初釋版擬音
+    上古音輸入方案：msoeg 擬音，布之道增修
     []不寫　　() 內容可不寫
-    ɛ作e　ɔ作o　ə作y　ɫ作j
-    θ作s　ŋ作ng　ʃ ʒ 作 sr zr
-    ɹ ʴ 作 r　　ʔ ʕ ˤ 作 x
-    ʰ◌̊◌̥作h　◌̃作v　ɦ作hh或f
+    ə 作 y　　ŋ 作 ng
+    ɬ 作 ll　　ɫ 作 l
+    ʔ ˤ作x　　ʰ◌̊◌̥作h
+    
   dependencies:
     - cangjie5
 
@@ -58,17 +58,14 @@ speller:
   delimiter: " '"
   algebra:
     - xform/(\*).+$//
-    - derive/\(j\)/j/
-    - derive/\(j\)//
+    - derive/\(l\)/l/
+    - derive/\(l\)//
     - derive/\(r\)/r/
     - derive/\(r\)//
-    - derive/\(u\)/u/
-    - derive/\(u\)//
     - derive/\(w\)/w/
     - derive/\(w\)//
-    - derive/\(x\)/x/
-    - derive/\(x\)//
-    - derive/hh/f/
+    - derive/H/h/
+    - derive/Hw/wh/
     - derive/i/j/
     - derive/j/i/
     - derive/u/w/
@@ -76,8 +73,8 @@ speller:
     - derive/^x//
 
 translator:
-  dictionary: OC_msoeg
-  prism: OC_msoeg
+  dictionary: OC_msoegDK
+  prism: OC_msoegDK
   spelling_hints: 1
   enable_completion: true
   preedit_format:
@@ -85,9 +82,7 @@ translator:
   comment_format:
     - xform/^(.*)$/‹$1›
     - xform/((\*).+)›/›\ $1/
-    # 對應拼音
-    - xform/（/\ ➡️\ /
-    - xform/）//
+    - xform/H/h/
     
 reverse_lookup:
   dictionary: cangjie5

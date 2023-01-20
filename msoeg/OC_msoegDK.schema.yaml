@@ -4,7 +4,7 @@
 schema:
   name: 上古漢語（MSOEG, 布之道）
   schema_id: OC_msoegDK
-  version: "2023.01.21"
+  version: "2023.01.211"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
@@ -13,7 +13,8 @@ schema:
     []不寫　　() 內容可不寫
     ə 作 y　　ŋ 作 ng
     ɬ 作 ll　　ɫ 作 l
-    ʔ ˤ作x　　ʰ◌̊◌̥作h
+    ʔ ˤ作x　　ʍ 作 hw
+    ʰ◌̊◌̥作h
     
   dependencies:
     - cangjie5

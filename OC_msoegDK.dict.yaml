@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 name: OC_msoegDK
-version: "2023.01.21"
+version: "2023.03.02"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -6905,9 +6905,7 @@ use_preset_vocabulary: true
 鄱	bxai*bˤai
 皤	bxai*bˤai
 𩕏	bxai*bˤai
-[	bxan*bˤan
 番	bxan*bˤan
-]	bxan*bˤan
 磻	bxan*bˤan
 蟠	bxan*bˤan
 蕃	pan*pan
@@ -10000,9 +9998,7 @@ use_preset_vocabulary: true
 㱦	kH(r)ai*kʰ(r)ai
 崎	kH(r)ai*kʰ(r)ai
 𦖊	kH(r)ai*kʰ(r)ai
-[	kH(r)ai*kʰ(r)ai
 躸	kH(r)ai*kʰ(r)ai
-]	kH(r)ai*kʰ(r)ai
 碕	kH(r)ai*kʰ(r)ai
 𤘌	kH(r)ai*kʰ(r)ai
 㥓	kH(r)ai*kʰ(r)ai
@@ -12161,12 +12157,8 @@ use_preset_vocabulary: true
 𥭘	tHri*tʰri
 脪	tHri*tʰri
 瓻	tHri*tʰri
-{	tHri*tʰri
 𤭏	tHri*tʰri
-}	tHri*tʰri
-[	tHri*tʰri
 瓻	tHri*tʰri
-]	tHri*tʰri
 黹	trix*triʔ
 㞟	txeng*tˤeŋ
 奠	dxings*dˤiŋs
@@ -16815,9 +16807,7 @@ use_preset_vocabulary: true
 稞	grxoix*grˤoiʔ
 𦖍	grxoix*grˤoiʔ
 𩸄	grxoix*grˤoiʔ
-[	grxoix*grˤoiʔ
 𠿜	grxoix*grˤoiʔ
-]	grxoix*grˤoiʔ
 輠	grxoix*grˤoiʔ
 䴹	grxoix*grˤoiʔ
 㷄	H(l)xuis*h(ɫ)ˤuis
@@ -18821,9 +18811,7 @@ use_preset_vocabulary: true
 輿	la*la
 旟	la*la
 璵	la*la
-{	la*la
 㶛	la*la
-}	la*la
 歟	la*la
 與	la*la
 譽	la*la

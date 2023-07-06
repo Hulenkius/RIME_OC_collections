@@ -4,7 +4,7 @@
 schema:
   name: 上古漢語（MSOEG, 布之道）
   schema_id: OC_msoegDK
-  version: "2023.07.071"
+  version: "2023.07.072"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
@@ -68,7 +68,7 @@ speller:
     - derive/\(w\)//
     - derive/\(i\)/i/
     - derive/\(i\)//
-    - derive/\(k\)/i/
+    - derive/\(k\)/k/
     - derive/\(k\)//
     - derive/Xa/aa/
     - derive/Xe/ee/

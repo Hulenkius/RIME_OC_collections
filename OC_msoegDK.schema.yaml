@@ -4,17 +4,18 @@
 schema:
   name: 上古漢語（MSOEG, 布之道）
   schema_id: OC_msoegDK
-  version: "2023.06.27"
+  version: "2023.07.07"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
   description: |
-    上古音輸入方案：msoeg 擬音，布之道增修
+    上古音輸入方案：布之道《廣韻諧聲考》（msoeg 擬音體系）
     []不寫　　() 內容可不寫
     ə 作 y　　ŋ 作 ng
     ɬ 作 ll　　ɫ 作 l
     ʔ ˤ作x　　ʍ 作 hw
-    ʰ◌̊◌̥作h
+    ʰ◌̊◌̥作h　去聲可寫s
+    非三等可雙寫元音
     
   dependencies:
     - cangjie5
@@ -67,8 +68,19 @@ speller:
     - derive/\(w\)//
     - derive/\(i\)/i/
     - derive/\(i\)//
-    - derive/H/h/
+    - derive/\(k\)/i/
+    - derive/\(k\)//
+    - derive/Xa/aa/
+    - derive/Xe/ee/
+    - derive/Xi/ii/
+    - derive/Xo/oo/
+    - derive/Xu/uu/
+    - derive/Xy/yy/
+    - derive/X/x/
     - derive/Hw/wh/
+    - derive/H/h/
+    - derive/S/s/
+    - derive/S/h/
     - derive/i/j/
     - derive/j/i/
     - derive/u/w/
@@ -86,6 +98,8 @@ translator:
     - xform/^(.*)$/‹$1›
     - xform/((\*).+)›/›\ $1/
     - xform/H/h/
+    - xform/X/x/
+    - xform/S/h/
     
 reverse_lookup:
   dictionary: cangjie5
@@ -99,6 +113,8 @@ reverse_lookup:
     - xform/^(.*)$/$1
     - xform/((\*).+)/$1/
     - xform/H/h/
+    - xform/X/x/
+    - xform/S/h/
   
 punctuator:
   import_preset: default

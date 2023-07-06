@@ -4,12 +4,12 @@
 schema:
   name: 上古漢語（MSOEG, 布之道）
   schema_id: OC_msoegDK
-  version: "2023.07.072"
+  version: "2023.07.073"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
   description: |
-    上古音輸入方案：布之道《廣韻諧聲考》（msoeg 擬音體系）
+    上古音輸入方案：布之道《廣韻形聲考》（msoeg 擬音體系）
     []不寫　　() 內容可不寫
     ə 作 y　　ŋ 作 ng
     ɬ 作 ll　　ɫ 作 l

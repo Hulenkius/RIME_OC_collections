@@ -11,13 +11,12 @@
 
 [散復生（Geoffrey Sampson）](https://www.grsampson.net/)在其著作《[Voices from Early China](https://www.cambridgescholars.com/product/978-1-5275-5212-8)》中給出了詩經全文的許氏擬音，但對擬音細節有所修改。正字後合併到一起，用 `Ⓖ` 標記，以示區分。
 
-[畢鶚（Wolfgang Behr）](https://www.aoi.uzh.ch/en/sinologie/persons/professoren/behr.html)的[金文擬音](https://www.researchgate.net/publication/281215287_Reimende_Bronzeinschriften_und_die_Entstehung_der_chinesischen_Endreimdichtung)同許氏的上古漢語擬音比較相似，合併到一起，標記了 `Ⓑ` 的候選準此。
-
 ## 上古漢語方案轉寫說明
 
 | 擬音 | 轉寫 |
 | :---: | :---: |
-| ◌̂ - | 不寫 |
+| - | 不寫 |
+| ◌̂ | 前置 x 或 雙寫其後元音 |
 | ə | y |
 | ŋ | ng |
 | ʔ（*影） | x 或不寫 |
@@ -26,8 +25,6 @@
 | ɦ | hh 或 f |
 | i、j | 可以混淆 |
 | u、w | 可以混淆 |
-| 附加畢鶚擬音 | Z 鍵引導 |
-| 大寫字母 | 單、雙小寫 |
 
 ## 東漢漢語方案轉寫說明
 

@@ -70,8 +70,8 @@ speller:
     - derive/j/i/
     - derive/u/w/
     - derive/w/u/
-    - derive/wH/hw/
-    - derive/H/h/
+    - derive/wh/hw/
+    - derive/hw/wh/
     - derive/S/h/
     - derive/S/s/
     - derive/Xa/aa/
@@ -96,7 +96,6 @@ translator:
     - derive/\_/\ /
     - xform/‹Ⓖ/Ⓖ‹/
     - xform/X/x/
-    - xform/H/h/
     - xform/S/s/
     
 reverse_lookup:
@@ -112,7 +111,6 @@ reverse_lookup:
     - xform/((\*).+)/$1/
     - derive/\_/\ /
     - xform/X/x/
-    - xform/H/h/
     - xform/S/s/
   
 punctuator:

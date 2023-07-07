@@ -15,7 +15,7 @@ msoeg 擬音由知乎「[msoeg](https://www.zhihu.com/people/msoeg)」老師擬�
 | ə | y |
 | ɬ | ll |
 | ɫ | l |
-| ʍ | hw |
+| ʍ | hw wh |
 | ŋ | ng |
 | ʔ ˤ | x |
 | ˤ | 可雙寫其後元音 |

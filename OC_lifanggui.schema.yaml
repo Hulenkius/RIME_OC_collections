@@ -4,7 +4,7 @@
 schema:
   name: 上古漢語（李方桂）
   schema_id: OC_lifanggui
-  version: "2023.07.15"
+  version: "2023.07.151"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
@@ -82,6 +82,7 @@ reverse_lookup:
   tips: 〔倉頡〕
   preedit_format:
     - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+  comment_format:
     - xform/X/x/
     - xform/0//
 

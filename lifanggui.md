@@ -4,7 +4,7 @@
 [小學堂](https://xiaoxue.iis.sinica.edu.tw/)
 
 > 比較新三家，李方桂上古音並非通常說的「承前啟後」，而是「獨樹一幟」，擬音簡約、系統，一刀劈開了混沌，非常優美。無開音節則最徹底走向死胡同，當時的風氣是盛行規則，忽視統計。新三家的重要特征如六元音配平構擬、重紐、-ks/-ts/-ps韻尾、重視統計等都不來自李方桂。<br>
-> [*古音小鏡 2022.5.20*](https://www.zhihu.com/question/341447387/answer/796465667)
+> [*古音小鏡 2022.5.20*](http://www.kaom.net/ny_box.php?name=lifanggui)
 
 ---
 材料出自《上古音研究》，由[小學堂](https://xiaoxue.iis.sinica.edu.tw/)整理。

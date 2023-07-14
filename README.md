@@ -11,6 +11,7 @@
 - [白一平-沙加爾擬音](baxter-sagart.md)
 - [許思萊擬音（上古、東漢）](shuessler.md)
 - [鄭張尚芳擬音](zhengzhang.md)
+- [王力擬音體系](wangli.md)
 - [msoeg 擬音](msoeg.md)
 
 點擊對應連結可查看相應的方案介紹、轉寫說明。

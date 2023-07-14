@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 name: OC_msoegDK
-version: "2023.07.075"
+version: "2023.07.14"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -7123,7 +7123,7 @@ use_preset_vocabulary: true
 懪	brXauk*brˤauk
 㩧	brXauk*brˤauk
 虣	bXaukS*bˤaukh
-駁	pXrauk*pˤrauk
+駁	prXauk*prˤauk
 風	pym*pəm
 飌	pym*pəm
 楓	pym*pəm

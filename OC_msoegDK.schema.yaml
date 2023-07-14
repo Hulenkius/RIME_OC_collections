@@ -4,7 +4,7 @@
 schema:
   name: 上古漢語（MSOEG, 布之道）
   schema_id: OC_msoegDK
-  version: "2023.07.075"
+  version: "2023.07.14"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
@@ -60,22 +60,9 @@ speller:
   delimiter: " '"
   algebra:
     - xform/(\*).+$//
-    - derive/\(l\)/l/
-    - derive/\(l\)//
-    - derive/\(r\)/r/
-    - derive/\(r\)//
-    - derive/\(w\)/w/
-    - derive/\(w\)//
-    - derive/\(i\)/i/
-    - derive/\(i\)//
-    - derive/\(k\)/k/
-    - derive/\(k\)//
-    - derive/Xa/aa/
-    - derive/Xe/ee/
-    - derive/Xi/ii/
-    - derive/Xo/oo/
-    - derive/Xu/uu/
-    - derive/Xy/yy/
+    - derive/\((.)\)/\1/
+    - derive/\((.)\)//
+    - derive/X(a|e|i|o|u|y)/\1\1/
     - derive/x/q/
     - derive/X/x/
     - derive/hw/wh/
@@ -87,6 +74,7 @@ speller:
     - derive/u/w/
     - derive/w/u/
     - derive/ing/in/
+    - derive/(ng)(|S|x)$/g\2/
     - derive/^x//
 
 translator:

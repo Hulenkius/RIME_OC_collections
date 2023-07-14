@@ -59,7 +59,7 @@ speller:
   algebra:
     - xform/(\*).+$//
     - derive/gg/v/
-    - derive/gg(|s)$/g\1/
+    - derive/(gg|ng)(|.)$/g\2/
     - derive/hh/f/
     - derive/hw/wh/
     - derive/u/w/
@@ -77,7 +77,6 @@ speller:
     - derive/s$/h/
     - derive/(a|e|i|o|u|y)(a|e|i|o|u|y)/x\1/
     - derive/(^q|Ⓛ|\?)//
-    - derive/(ng)(|.)$/g\2/
 
 translator:
   dictionary: OC_zhengzhang

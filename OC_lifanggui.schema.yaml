@@ -2,21 +2,15 @@
 # encoding: utf-8
 
 schema:
-  name: 上古漢語（王力）
-  schema_id: OC_wangli
+  name: 上古漢語（李方桂）
+  schema_id: OC_lifanggui
   version: "2023.07.15"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
   description: |
-    上古音輸入方案：王力擬音體系
-    ȶ ȡ ɕ ʑ ȵ 作 tx dx sx zx nx
-    ʎ 作 lx　　ŋ 作 ng
-    ɣ 作 xx 或 f 或 v
-    ʃ ʒ 作 sr zr　零聲母作 x 或不寫
-    ʰ 作 h　　ǐ 作 j
-    ə 作 y　　ɔ 作 o
-    
+    上古音輸入方案：李方桂擬音
+    ə 作 y　　ʔ(·) 作 x
   dependencies:
     - cangjie5
 
@@ -60,20 +54,18 @@ speller:
   delimiter: " '"
   algebra:
     - xform/(\*).+$//
-    - derive/X//
-    - derive/X/x/
     - derive/x/q/
-    - derive/xx/f/
-    - derive/xx/v/
+    - derive/^x//
+    - derive/hw/wh/
     - derive/j/i/
     - derive/i/j/
     - derive/w/u/
     - derive/u/w/
-    - derive/ng$/g/
+    - derive/(.|ng)w(|.)$/w\1\2/
 
 translator:
-  dictionary: OC_wangli
-  prism: OC_wangli
+  dictionary: OC_lifanggui
+  prism: OC_lifanggui
   spelling_hints: 1
   enable_completion: true
   preedit_format:
@@ -81,8 +73,6 @@ translator:
   comment_format:
     - xform/^(.*)$/‹$1›
     - xform/((\*).+)›/›\ $1/
-    - xform/X/x/
-    - xform/0//
 
 reverse_lookup:
   dictionary: cangjie5

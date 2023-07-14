@@ -12,6 +12,7 @@
 - [許思萊擬音（上古、東漢）](shuessler.md)
 - [鄭張尚芳擬音](zhengzhang.md)
 - [王力擬音體系](wangli.md)
+- [李方桂擬音](lifanggui.md)
 - [msoeg 擬音](msoeg.md)
 
 點擊對應連結可查看相應的方案介紹、轉寫說明。

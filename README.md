@@ -7,14 +7,15 @@
 
 目前已收錄如下方案：
 
-- [白一平 1992 版擬音](baxter1992.md)
 - [白一平-沙加爾擬音](baxter-sagart.md)
-- [許思萊擬音（上古、東漢）](shuessler.md)
+- [斯塔羅斯金擬音（晚期上古）](starostin.md)
 - [鄭張尚芳擬音](zhengzhang.md)
-- [王力擬音體系](wangli.md)
+- [msoeg 擬音](msoeg.md)
+- [許思萊擬音（上古、東漢）](shuessler.md)
+- [白一平 1992 版擬音](baxter1992.md)
+- [王力擬音](wangli.md)
 - [李方桂擬音](lifanggui.md)
 - [周法高擬音](zhoufagao.md)
-- [msoeg 擬音](msoeg.md)
 
 點擊對應連結可查看相應的方案介紹、轉寫說明。
 

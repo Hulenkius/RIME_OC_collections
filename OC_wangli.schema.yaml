@@ -4,12 +4,12 @@
 schema:
   name: 上古漢語（王力）
   schema_id: OC_wangli
-  version: "2023.07.151"
+  version: "2023.07.16"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
   description: |
-    上古音輸入方案：王力擬音體系
+    上古音輸入方案：王力擬音
     ȶ ȡ ɕ ʑ ȵ 作 tx dx sx zx nx
     ʎ 作 lx　　ŋ 作 ng
     ɣ 作 xx 或 f 或 v

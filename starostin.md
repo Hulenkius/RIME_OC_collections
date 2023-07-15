@@ -14,7 +14,7 @@
 ---
 收錄兩種方案：
 - `OC_starostinLO` 爲斯氏擬音中的晚期上古漢語（戰國時期）部分。資料來自 [Digital Linguistics](https://github.com/digling/cddb)，爲斯氏著作《新構擬》的電子化，僅三千餘字，不及「[The Tower of Babel](https://starlingdb.org/)」平臺上的多且新。此方案帶有推導的國語讀音，以拼音書寫，多音字不準確。
-- `OC_starostinTK`，爲《詩經》全部韻腳字構擬，資料來自 [msoeg](https://zhuanlan.zhihu.com/p/48871271)。此方案帶有推導的普通話讀音，以拼音書寫，較準確。
+- `OC_starostinTK` 爲《詩經》全部韻腳字構擬，資料來自 [msoeg](https://zhuanlan.zhihu.com/p/48871271)。此方案帶有推導的普通話讀音，以拼音書寫，較準確。
 
 ## 轉寫說明
 

@@ -8,7 +8,7 @@
 目前已收錄如下方案：
 
 - [白一平-沙加爾擬音](baxter-sagart.md)
-- [斯塔羅斯金擬音（晚期上古）](starostin.md)
+- [斯塔羅斯金擬音（晚期上古、詩經韻尾）](starostin.md)
 - [鄭張尚芳擬音](zhengzhang.md)
 - [msoeg 擬音](msoeg.md)
 - [許思萊擬音（上古、東漢）](shuessler.md)

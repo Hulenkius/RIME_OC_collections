@@ -11,27 +11,27 @@
 > 斯塔罗斯金的……小问题是个别细节方面的观点缺乏证据支持而且实际上也不靠谱。<br>
 > [*msoeg 2017-01-22*](https://www.zhihu.com/question/55030937/answer/142306406)
 
-暫收錄一種方案：
+---
+收錄兩種方案：
 - `OC_starostinLO` 爲斯氏擬音中的晚期上古漢語（戰國時期）部分。資料來自 [Digital Linguistics](https://github.com/digling/cddb)，爲斯氏著作《新構擬》的電子化，僅三千餘字，不及「[The Tower of Babel](https://starlingdb.org/)」平臺上的多且新。此方案帶有推導的普通話讀音，以拼音書寫。
-- 今後將增加 `OC_starostinTK`，爲《詩經》全部韻腳字構擬，資料將來自 [msoeg](https://zhuanlan.zhihu.com/p/48871271)。
+- `OC_starostinTK`，爲《詩經》全部韻腳字構擬，資料來自 [msoeg](https://zhuanlan.zhihu.com/p/48871271)。
 
-## 晚期上古漢語轉寫說明
+## 轉寫說明
 
 斯氏的擬音符號並非標準的 IPA，這裏做了規整化。
 
 | 原書符號 | IPA |
 | :---: | :---: |
-| c ć з | ts tɕ z |
+| c ć ś з | ts tɕ ɕ z |
 | ƛ Ł | tɬ dɮ |
 | ā | aː |
-
-如不滿意，可至 `OC_starostinLO.schema.yaml` 中對兩處標記了「**自定義**」的行前的註釋符號進行增刪。
 
 | 擬音 | 轉寫 |
 | :---: | :---: |
 | () 內容 | 可不寫 |
 | ə | y |
-| tɕ | tc ts c |
+| ʑ | zx |
+| tɕ | tsx tc |
 | tɬ dɮ | tl dl |
 | ŋ | ng |
 | ʔ | x 或不寫 |

@@ -9,10 +9,10 @@
 > *《古汉语音系的构拟》北京大学出版社.2012*
 
 > 斯塔罗斯金的……小问题是个别细节方面的观点缺乏证据支持而且实际上也不靠谱。<br>
-> [*msoeg 2017-01-22]*(https://www.zhihu.com/question/55030937/answer/142306406)
+> [*msoeg 2017-01-22*](https://www.zhihu.com/question/55030937/answer/142306406)
 
 暫收錄一種方案：
-- `OC_starostinLO` 爲斯氏擬音中的晚期上古漢語（戰國時期）部分。資料來自 [Digital Linguistics](https://github.com/digling/cddb)，爲斯氏著作《新構擬》的電子化，僅三千餘字，不及「[The Tower of Babel](https://starlingdb.org/)」平臺上的多。
+- `OC_starostinLO` 爲斯氏擬音中的晚期上古漢語（戰國時期）部分。資料來自 [Digital Linguistics](https://github.com/digling/cddb)，爲斯氏著作《新構擬》的電子化，僅三千餘字，不及「[The Tower of Babel](https://starlingdb.org/)」平臺上的多且新。
 - 今後將增加 `OC_starostinTK`，爲《詩經》全部韻腳字構擬，資料將來自 [msoeg](https://zhuanlan.zhihu.com/p/48871271)。
 
 ## 晚期上古漢語轉寫說明
@@ -23,8 +23,8 @@
 | :---: | :---: |
 | () 內容 | 可不寫 |
 | ə | y |
-| Ł(ɬ) ƛ(tɬ) | l |
+| Ł (ɬ) ƛ (tɬ) | l |
 | ŋ | ng |
-| ć(tɕ) | tc ts c |
+| ć (tɕ) | tc ts c |
 | ʔ | x 或不寫 |
 | ʰ ʱ ◌̥ | h |

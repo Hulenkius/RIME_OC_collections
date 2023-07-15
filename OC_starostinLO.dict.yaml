@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 name: OC_starostinLO
-version: "2023.07.15"
+version: "2023.07.151"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -2848,7 +2848,7 @@ use_preset_vocabulary: true
 收	hiw*hiw（shōu）
 章	tang*taŋ（zhāng）
 笑	shawh*sʰawh（xiào）
-樂	raauk*raːuk（yuè）
+樂	raauk*raːuk（lè）
 黮	thyymx*tʰə́ːm（tǎn）
 浪	raangh*raːŋh（làng）
 於	xaa*ʔaː（yú）

@@ -4,7 +4,7 @@
 schema:
   name: 晚期上古漢語（斯塔羅斯金）
   schema_id: OC_starostinLO
-  version: "2023.07.152"
+  version: "2023.07.16"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
@@ -66,6 +66,7 @@ speller:
     - derive/^x//
     - derive/h$/s/
     - derive/tc/c/
+    - derive/tc/tsx/
     - derive/tc/ts/
     - derive/tc/th/
     - derive/^ts/c/

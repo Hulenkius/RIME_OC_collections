@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 name: OC_starostinLO
-version: "2023.07.152"
+version: "2023.07.16"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -108,7 +108,7 @@ use_preset_vocabulary: true
 洫	swhit*sw̥it（xù）
 被	bhajx*bháj（bèi）
 禿	(s)lhook*(s)l̥oːk（tū）
-駾	tl(h)waatc*tɬ⁽ʱ⁾waːtɕ（tú）
+駾	tl(h)waatc*tɬ⁽ʰ⁾waːtɕ（tú）
 仁	nin*nin（rén）
 出	thwyt*tʰwət（chū）
 襟	krym*krəm（jīn）
@@ -306,7 +306,7 @@ use_preset_vocabulary: true
 墉	dlong*dɮoŋ（yōng）
 渠	ga*ga（qú）
 悖	byytc*bəːtɕ（bèi）
-蘀	tl(h)aak*tɬ⁽ʱ⁾aːk（tuò）
+蘀	tl(h)aak*tɬ⁽ʰ⁾aːk（tuò）
 桃	dlhaaw*dɮʱaːw（táo）
 沫	mhaat*mʱaːt（mò）
 淒	shyyj*sʰəːj（qī）
@@ -501,7 +501,7 @@ use_preset_vocabulary: true
 肌	kryj*krəj（jī）
 窖	kruuh*kruːh（jiào）
 賈	kaax*káː（gǔ）
-喙	tl(h)watc*tɬ⁽ʱ⁾watɕ（huì）
+喙	tl(h)watc*tɬ⁽ʰ⁾watɕ（huì）
 佛	byt*bət（fó）
 襜	tham*tʰam（chān）
 粺	bhreeh*bhreːh（bài）
@@ -876,11 +876,11 @@ use_preset_vocabulary: true
 徬	bhaang*bhaːŋ（páng）
 蜮	w(h)yk*w⁽ʱ⁾ək（yù）
 席	lhiak*lʱiak（xí）
-挑	tl(h)eew*tɬ⁽ʱ⁾eːw（tiāo）
+挑	tl(h)eew*tɬ⁽ʰ⁾eːw（tiāo）
 薸	bhew*bhew（piaó）
 甚	d(h)ymx*d⁽ʱ⁾ə́m（shén）
 望	mangh*maŋh（wàng）
-突	tl(h)wyyt*tɬ⁽ʱ⁾wəːt（tú）
+突	tl(h)wyyt*tɬ⁽ʰ⁾wəːt（tú）
 梅	myy*məː（méi）
 孩	g(h)yy*g⁽ʱ⁾əː（hái）
 儢	r(h)ax*r⁽ʱ⁾á（lǚ）
@@ -1083,7 +1083,7 @@ use_preset_vocabulary: true
 彈	dhaan*dʱaːn（tán）
 芼	m(h)aawh*m⁽ʱ⁾aːwh（mào）
 止	tyx*tə́（zhǐ）
-恫	tl(h)oong*tɬ⁽ʱ⁾oːŋ（dòng）
+恫	tl(h)oong*tɬ⁽ʰ⁾oːŋ（dòng）
 沾	tem*tem（zhān）
 孤	kwaa*kwaː（gū）
 杕	d(h)eetc*d⁽ʱ⁾eːtɕ（dì）
@@ -1789,7 +1789,7 @@ use_preset_vocabulary: true
 癢	langx*láŋ（yǎng）
 瑣	swaajx*swáːj（suǒ）
 牢	ruu*ruː（láo）
-探	tl(h)yym*tɬ⁽ʱ⁾əːm（tān）
+探	tl(h)yym*tɬ⁽ʰ⁾əːm（tān）
 邪	lhia*lʱia（xié）
 相	sang*saŋ（xiāng）
 亢	kaang*kaːŋ（kàng）
@@ -1883,7 +1883,7 @@ use_preset_vocabulary: true
 朝	dhraw*dʱraw（cháo）
 何	ghaaj*gʱaːj（hé）
 竭	grat*grat（jié）
-貸	tl(h)yyh*tɬ⁽ʱ⁾əːh（dài）
+貸	tl(h)yyh*tɬ⁽ʰ⁾əːh（dài）
 純	d(h)wyn*d⁽ʱ⁾wən（chún）
 稷	tsyk*tsək（jì）
 倫	rwyn*rwən（lún）
@@ -2058,7 +2058,7 @@ use_preset_vocabulary: true
 駕	kraajh*kraːjh（jià）
 蝟	wytc*wətɕ（wèi）
 暴	baawh*baːwh（bào）
-聽	tl(h)eeng*tɬ⁽ʱ⁾eːŋ（tīng）
+聽	tl(h)eeng*tɬ⁽ʰ⁾eːŋ（tīng）
 燕	xeenh*ʔeːnh（yàn）
 粥	tuk*tuk（zhōu）
 次	shitc*sʰitɕ（cì）
@@ -2444,7 +2444,7 @@ use_preset_vocabulary: true
 暇	g(h)raah*g⁽ʱ⁾raːh（xià）
 尨	mroong*mroːŋ（máng）
 鹿	rook*roːk（lù）
-胎	tl(h)yy*tɬ⁽ʱ⁾əː（tāi）
+胎	tl(h)yy*tɬ⁽ʰ⁾əː（tāi）
 偶	ngoox*ŋóː（ǒu）
 埽	suux*súː（sǎo）
 佞	n(h)eengh*n⁽ʱ⁾eːŋh（nìng）
@@ -2856,7 +2856,7 @@ use_preset_vocabulary: true
 洟	lyj*ləj（yí）
 芳	phang*pʰaŋ（fāng）
 持	dhry*dʱrə（chí）
-涕	tl(h)iijx*tɬ⁽ʱ⁾íːj（tì）
+涕	tl(h)iijx*tɬ⁽ʰ⁾íːj（tì）
 恁	n(h)ym*n⁽ʱ⁾əm（rèn）
 濆	byn*bən（fén）
 悲	pryj*prəj（bēi）
@@ -3195,7 +3195,7 @@ use_preset_vocabulary: true
 勸	khwanh*kʰwanh（quàn）
 血	whiit*w̥iːt（xuè）
 七	shit*sʰit（qī）
-梯	tl(h)yyj*tɬ⁽ʱ⁾əːj（tī）
+梯	tl(h)yyj*tɬ⁽ʰ⁾əːj（tī）
 威	xwyj*ʔwəj（wēi）
 彝	lyj*ləj（yí）
 蘞	r(h)am*r⁽ʱ⁾am（lián）

@@ -4,12 +4,12 @@
 schema:
   name: 上古漢語（MSOEG, 布之道）
   schema_id: OC_msoegDK
-  version: "2023.07.141"
+  version: "2023.07.17"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
   description: |
-    上古音輸入方案：布之道《廣韻形聲考》（msoeg 擬音體系）
+    上古音輸入方案：布之道《廣韻形聲考》（msoeg 擬音）
     []不寫　　() 內容可不寫
     ə 作 y　　ŋ 作 ng
     ɬ 作 ll　　ɫ 作 l
@@ -75,7 +75,7 @@ speller:
     - derive/w/u/
     - derive/ing/in/
     - derive/(ng)(|.)$/g\2/
-    - derive/^x//
+    - derive/(^x|\-|❓)//
 
 translator:
   dictionary: OC_msoegDK
@@ -89,6 +89,14 @@ translator:
     - xform/((\*).+)›/›\ $1/
     - xform/X/x/
     - xform/S/h/
+    - xform/‹\❓/\❓‹/
+
+#     第一處自定義（候選）開始----------
+    # - xform/ˤ/ʶ/
+    # - xform/R/ɻ/
+#     第一處自定義（候選）結束----------
+
+    - xform/R/r/
     
 reverse_lookup:
   dictionary: cangjie5
@@ -103,6 +111,13 @@ reverse_lookup:
     - xform/((\*).+)/$1/
     - xform/X/x/
     - xform/S/h/
+
+#     第二處自定義（反查）開始----------
+    # - xform/ˤ/ʶ/
+    # - xform/R/ɻ/
+#     第二處自定義（反查）結束----------
+
+    - xform/R/r/
   
 punctuator:
   import_preset: default

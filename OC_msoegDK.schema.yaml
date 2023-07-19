@@ -4,7 +4,7 @@
 schema:
   name: 上古漢語（MSOEG, 布之道）
   schema_id: OC_msoegDK
-  version: "2023.07.191"
+  version: "2023.07.192"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
@@ -62,19 +62,22 @@ speller:
     - xform/(\*).+$//
     - derive/\((.)\)/\1/
     - derive/\((.)\)//
-    - derive/X(a|e|i|o|u|y)/\1\1/
-    - derive/x/q/
-    - derive/X/x/
-    - derive/hw/wh/
-    - derive/wh/hw/
-    - derive/S/s/
-    - derive/S/h/
+    - derive/(.)x(a|e|i|o|u|y)/\1\2\2/
+    - derive/(^x|x$)/q/
+    - derive/h$/s/
     - derive/i/j/
     - derive/j/i/
     - derive/u/w/
     - derive/w/u/
-    - derive/ing(|.)$/in\1/
-    - derive/in(|.)$/ing\1/
+    - derive/it/ik/ #質
+    - derive/W/sw/ #宣尖獨立
+    - derive/W/hw/ #宣尖混團
+    - derive/W/wh/ #宣尖混團
+    - derive/wh/hw/ #宣團混尖
+    - derive/hw/wh/ #送氣+圓脣次序
+    - derive/(.)rx/\1xr/ #r介+咽化次序
+    - derive/ing(|.)$/in\1/ #真
+    - derive/in(|.)$/ing\1/ #真
     - derive/(ng)(|.)$/g\2/
     - derive/(^(|❓)x|\-|❓)//
 
@@ -88,16 +91,7 @@ translator:
   comment_format:
     - xform/^(.*)$/‹$1›
     - xform/((\*).+)›/›\ $1/
-    - xform/X/x/
-    - xform/S/h/
     - xform/‹\❓/\❓‹/
-
-#     第一處自定義（候選）開始----------
-    # - xform/ˤ/ʶ/
-    # - xform/R/ɻ/
-#     第一處自定義（候選）結束----------
-
-    - xform/R/r/
     
 reverse_lookup:
   dictionary: cangjie5
@@ -110,15 +104,6 @@ reverse_lookup:
   comment_format:
     - xform/^(.*)$/$1
     - xform/((\*).+)/$1/
-    - xform/X/x/
-    - xform/S/h/
-
-#     第二處自定義（反查）開始----------
-    # - xform/ˤ/ʶ/
-    # - xform/R/ɻ/
-#     第二處自定義（反查）結束----------
-
-    - xform/R/r/
   
 punctuator:
   import_preset: default

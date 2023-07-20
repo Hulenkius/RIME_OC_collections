@@ -4,7 +4,7 @@
 schema:
   name: 上古漢語（鄭張尚芳）
   schema_id: OC_zhengzhang
-  version: "2023.07.143"
+  version: "2023.07.20"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
@@ -58,24 +58,24 @@ speller:
   delimiter: " '"
   algebra:
     - xform/(\*).+$//
+    - derive/(a|e|i|o|u|y)(a|e|i|o|u|y)/x\1/
     - derive/gg/v/
-    - derive/(gg|ng)(|.)$/g\2/
     - derive/hh/f/
+    - derive/b$/p/
+    - derive/d$/t/
+    - derive/(g|gg)(|s)$/k\2/
+    - derive/bs$/ps/
+    - derive/ds$/ts/
+    - derive/(gg|ng)(|.)$/g\2/
+    - derive/l(|s|x)$/j\1/
+    - derive/s$/h/
     - derive/hw/wh/
     - derive/u/w/
     - derive/w/u/
     - derive/i/j/
     - derive/j/i/
-    - derive/b$/p/
-    - derive/d$/t/
-    - derive/(g|gg)$/k/
-    - derive/ds$/ts/
-    - derive/bs$/ps/
-    - derive/(g|gg)s$/ks/
-    - derive/l(|s|x)$/j\1/
-    - derive/l(|s|x)$/i\1/
-    - derive/s$/h/
-    - derive/(a|e|i|o|u|y)(a|e|i|o|u|y)/x\1/
+    - derive/x$/q/
+    - derive/^q/x/
     - derive/(^q|Ⓛ|\?)//
 
 translator:

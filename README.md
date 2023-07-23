@@ -4,7 +4,7 @@
 
 本倉庫用於分享一些上古漢語擬音的 RIME 輸入方案。**更多的時候是作爲一個臨時反查上古音的工具。**
 
-本倉庫收錄於 [中州韻輸入法非普通話漢語拼音方案全集](github.com/laubonghaudoi/Chinese_Rime)。
+本倉庫收錄於 [中州韻輸入法非普通話漢語拼音方案全集](https://github.com/laubonghaudoi/Chinese_Rime)。
 
 目前已製作下列方案：
 

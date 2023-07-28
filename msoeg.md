@@ -4,7 +4,7 @@ msoeg 擬音由知乎「[msoeg](https://www.zhihu.com/people/msoeg)」老師擬�
 
 收錄兩種方案：
 - `OC_msoeg` 爲 msoeg [於 2018 年初次釋出的擬音](https://zhuanlan.zhihu.com/p/48871271)，五千餘字。此方案帶有推導的普通話讀音，以拼音書寫。
-- `OC_msoegDK` 爲知乎「[布之道](https://www.zhihu.com/people/Buzhidao)」老師所作《[廣韻形聲考](https://zhuanlan.zhihu.com/p/350530789)》中的參考擬音（修訂時間 2022/09/30），二萬餘字。根據 `OC_msoeg` 進行了一些字的擬音推導，不準確，用 `❓` 標出。
+- `OC_msoegDK` 爲知乎「[布之道](https://www.zhihu.com/people/Buzhidao)」老師所作《[廣韻形聲考](https://zhuanlan.zhihu.com/p/350530789)》中的參考擬音（修訂時間 2022/09/30），二萬餘字。根據 `OC_msoeg` 進行了一些字的擬音推導，不太準確，用 `❓` 標出。
 
 ## 布之道《廣韻形聲考》擬音轉寫說明
 
@@ -18,11 +18,17 @@ msoeg 擬音由知乎「[msoeg](https://www.zhihu.com/people/msoeg)」老師擬�
 | ʍ | sw hw |
 | ŋ | ng |
 | ʔ ˤ | x |
-| ˤ | 可轉爲雙寫其後元音 |
-| ʔ（*影） | 可不寫 |
 | ʰ ◌̊ ◌̥ | h |
-| h（*去聲） | 混淆 s |
-| r（介音） | 可置於最後 |
+
+爲便利輸入、提高效率，有幾個容錯許可：
+- 「\*i 與 \*j」「\*u 與 \*w」 可以互相混淆。
+- 音節開頭的「\*ʔ」可以省略。
+- 非三等「\*ˤV」可以轉爲雙寫其首個元音字母，如「姑 kxa」可作「kaa」。
+- 非三等可以只打單個元音，並在結尾補打「f」或「v」，如「姑 kxa」可作「kaf」「kav」
+- 有介音「\*r」的字，「r」可以在結尾輸入，如「家 krxa」可作「kaar」
+- 去聲標記「\*h」可以換成「\*s」。
+- 韻尾「\*ŋ」可以省略成「g」。
+- 音節開頭的「\*dz」可以省略成「z」。
 
 ## msoeg 2018 版擬音轉寫說明
 

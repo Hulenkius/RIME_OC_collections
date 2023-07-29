@@ -4,7 +4,7 @@ msoeg 擬音由知乎「[msoeg](https://www.zhihu.com/people/msoeg)」老師擬�
 
 收錄兩種方案：
 - `OC_msoeg` 爲 msoeg [於 2018 年初次釋出的擬音](https://zhuanlan.zhihu.com/p/48871271)，五千餘字。此方案帶有推導的普通話讀音，以拼音書寫。
-- `OC_msoegDK` 爲知乎「[布之道](https://www.zhihu.com/people/Buzhidao)」老師所作《[廣韻形聲考](https://zhuanlan.zhihu.com/p/350530789)》中的參考擬音（修訂時間 2022/09/30），二萬餘字。根據 `OC_msoeg` 進行了一些字的擬音推導，不太準確，用 `❓` 標出。
+- `OC_msoegDK` 爲知乎「[布之道](https://www.zhihu.com/people/Buzhidao)」老師所作《[廣韻形聲考](https://zhuanlan.zhihu.com/p/350530789)》中的參考擬音（修訂時間 2022/09/30），二萬餘字。根據 `OC_msoeg` 進行了一些字的擬音推導，不太準確，用 `❓` 標出。《廣韻形聲考》中標記的訛字，用 `⏪` 標出其正字。
 
 ## 布之道《廣韻形聲考》擬音轉寫說明
 

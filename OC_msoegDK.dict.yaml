@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 name: OC_msoegDK
-version: "2023.07.30"
+version: "2023.07.301"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -21037,7 +21037,6 @@ use_preset_vocabulary: true
 崧	sung*[s]uŋ❓
 匚	pang*paŋ❓
 旊	pangx*paŋʔ❓
-吚	xi*ʔi❓
 開	khxyi*kʰˁəi❓
 䭫	khxix*kʰˁiʔ❓
 柿	dzrix*dzriʔ❓

@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 name: OC_msoegDK
-version: "2023.07.292"
+version: "2023.07.30"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -20994,14 +20994,14 @@ use_preset_vocabulary: true
 抴	laph*l[a]ph
 㵩	laph*l[a]ph
 呭	laph*l[a]ph
-紲	lhap*l̥[a]t❓
-緤	lhap*l̥[a]t❓
-泄	lhap*l̥[a]t❓
-渫	lhap*l̥[a]t❓
-媟	lhap*l̥[a]t❓
-齛	lhap*l̥[a]t❓
-𣽒	lhap*l̥[a]t❓
-疶	lhap*l̥[a]t❓
+紲	lhat*l̥[a]t❓
+緤	lhat*l̥[a]t❓
+泄	lhat*l̥[a]t❓
+渫	lhat*l̥[a]t❓
+媟	lhat*l̥[a]t❓
+齛	lhat*l̥[a]t❓
+𣽒	lhat*l̥[a]t❓
+疶	lhat*l̥[a]t❓
 
 # 字不見於廣韻者
 吏	ryh*rəh❓

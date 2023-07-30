@@ -4,7 +4,7 @@
 schema:
   name: 上古漢語（MSOEG, 布之道）
   schema_id: OC_msoegDK
-  version: "2023.07.291"
+  version: "2023.07.30"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
@@ -78,8 +78,6 @@ speller:
     - derive/ing(|.)$/in\1/ #真部可通作in
     - derive/in(|.)$/ing\1/ #真部可通作ing
     - derive/([^c])(ng)(.*?)$/\1g\3/ #ng韻可簡作g 
-    - derive/(^x|x$|X)/q/ #喉塞混淆x、q
-    - derive/cx/cq/ #存疑音節中的影母混淆x、q
     - xform/^(|c)r/\1R/ #來母大寫以與r介進行區分，排除r介後置重碼
     - derive/^(.*?)r(.*?)$/\1\2r/ #r介可置於最後
     - derive/(^(x|X)|\-)// #影母可省略；忽略符號「-」
@@ -92,6 +90,9 @@ speller:
     - derive/(|p|t|k)(|x|h)(|f)(|r)$/\4\1\2\3/
     - derive/(|p|t|k)(|x|h)(|f)(|r)$/\4\3\1\2/
     - derive/f/v/ #非三等可記作V+後置v
+    - derive/([^c])x(a|e|i|o|u|y)/\1X\2/ #非三等記號大寫以免被喉塞混淆爲q
+    - derive/x/q/ #喉塞可記作q
+    - derive/X/x/ #將大寫非三等記號重新定義爲小寫
     - derive/(a|e|i|o|u|y)(.*?)h(.*?)$/\1\2s\3/ #去聲混淆h、s
 
 translator:

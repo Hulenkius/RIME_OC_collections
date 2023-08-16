@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 name: OC_msoegDK
-version: "2023.08.02"
+version: "2023.08.16"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -564,8 +564,8 @@ use_preset_vocabulary: true
 𡚽	nhxux*n̥ˤuʔ
 好	nhxuh*n̥ˤuh
 𡚽	nhxuh*n̥ˤuh
-茠	hxu*hˤu❓
-𣐾	hxu*hˤu❓
+茠	nhxu*n̥ˤu❓
+𣐾	nhxu*n̥ˤu❓
 休	nhu*n̥u
 貅	nhu*n̥u
 㹯	nhu*n̥u
@@ -14704,7 +14704,7 @@ use_preset_vocabulary: true
 晴	dzeng*dzeŋ
 請	dzeng*dzeŋ
 夝	dzeng*dzeŋ
-	dzeng*dzeŋ
+䝼	dzeng*dzeŋ
 靜	dzengx*dzeŋʔ
 睜	dzengx*dzeŋʔ
 𩇕	dzengx*dzeŋʔ

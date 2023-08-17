@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 name: OC_msoegDK
-version: "2023.08.17"
+version: "2023.08.171"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -21045,7 +21045,6 @@ use_preset_vocabulary: true
 叀	wxih*wˁih❓
 朘	tsxun*tsˁun❓
 䄟	tshoth*tsʰoth❓
-鉥	mlut*mlut❓
 誸	g(l)xin*ɡ(ɫ)ˁin❓
 罕	hxanx*hˁanʔ❓
 飦	kxan*kˁan❓
@@ -21070,6 +21069,9 @@ use_preset_vocabulary: true
 矣	yx*əʔ
 乎	a*a
 兮	e*e
+
+# 布之道知乎散見擬音
+鉥	llut*ɬut
 
 # 《廣韻形聲考》特殊字表註釋中所含擬音
 癡	lhry*[l̥]rə

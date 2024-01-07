@@ -4,7 +4,7 @@
 schema:
   name: 上古漢語（金理新）
   schema_id: OC_jinlixin
-  version: "2024.01.08"
+  version: "2024.01.081"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
@@ -65,7 +65,9 @@ speller:
     - derive/u/uu/ #非三等可寫成VV
     - derive/y/yy/ #非三等可寫成VV
     - derive/y/au/ #宵藥部容錯
+    - derive/y(.*?)$/au\1f/
     - derive/y/eu/ #宵藥部容錯
+    - derive/y(.*?)$/eu\1f/
     - derive/(A|E|I|O|U|Y)(.*?)$/\1\2v/ #三等可記作V+後置v
     - derive/A/a/ #三等可直書
     - derive/E/e/ #三等可直書
@@ -73,10 +75,8 @@ speller:
     - derive/O/o/ #三等可直書
     - derive/U/u/ #三等可直書
     - derive/Y/y/ #三等可直書
-    - derive/Y/aau/ #三等可直書
-    - derive/Y(.*?)$/au\1v/
-    - derive/Y/eeu/ #三等可直書
-    - derive/Y(.*?)$/eu\1v/
+    - derive/Y/au/ #三等可直書
+    - derive/Y/eu/ #三等可直書
     - derive/R/rr/
     - derive/R/gw/ #容錯
     - derive/C/c/

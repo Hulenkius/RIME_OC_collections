@@ -4,12 +4,19 @@
 schema:
   name: 上古漢語（金理新）
   schema_id: OC_jinlixin
-  version: "2024.01.081"
+  version: "2024.01.082"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
   description: |
-    上古音輸入方案：金理新2023版擬音
+    上古音輸入方案：金理新 2023 版擬音
+    //內插音可不寫　三等單寫　非三等雙寫
+    ɯ 作 y　　ŋ 作 ng　　ȶ ȡ 作 ts ds
+    ɕ 作 sh　　x 作 h　ɣ 作 hh 或 v
+    q 可作 kw　ɢ 作 gg 或 w　　ʔ 作 x
+    ɴ 作 nn 或 nng ngg　　χ 作 cc 或 c
+    ʁ 作 rr 或 gw
+
   dependencies:
     - cangjie5
 

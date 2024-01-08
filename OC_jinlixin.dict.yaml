@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 name: OC_jinlixin
-version: "2024.01.08"
+version: "2024.01.081"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -1813,7 +1813,6 @@ use_preset_vocabulary: true
 邛	gOng*go̠ŋ
 鴻	gong*goŋ
 仇	gU*gu̠
-仇	gU*gu̠
 會	gus*gus
 俅	gU*gu̠
 叴	gU*gu̠
@@ -2770,7 +2769,6 @@ use_preset_vocabulary: true
 遥	zY*zɯ̠
 鰷	zy*zɯ
 鼗	zy*zɯ
-狄	zyk*zɯk
 狄	zyk*zɯk
 禴	zYk*zɯ̠k
 籥	zYk*zɯ̠k

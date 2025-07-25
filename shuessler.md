@@ -7,7 +7,8 @@
 > [*古音小鏡 2022.5.20*](http://www.kaom.net/ny_box.php?name=xusilai)
 
 ---
-許思萊擬音依照歷史分期，對應兩個輸入方案：一是上古漢語（Old Chinese），對應 `OC_schuesslerOC` 方案；二是東漢漢語（Later *Hàn* Chinese），對應 `OC_schuesslerLHC` 方案。兩套方案的輸入轉寫規則稍異。
+
+這裏採用的是許氏經典的「OCM」（最小上古漢語）擬音系統。
 
 [散復生（Geoffrey Sampson）](https://www.grsampson.net/)在其著作《[Voices from Early China](https://www.cambridgescholars.com/product/978-1-5275-5212-8)》中給出了詩經全文的許氏擬音，但對擬音細節有所修改。正字後合併到一起，用 `Ⓖ` 標記，以示區分。
 
@@ -23,37 +24,5 @@
 | ʔ（*上） | x |
 | ◌̥ ◌̊ ʰ | h |
 | ɦ | hh 或 f |
-| i、j | 可以混淆 |
-| u、w | 可以混淆 |
-
-## 東漢漢語方案轉寫說明
-
-本方案將許氏東漢漢語擬音原有的記音符號用 IPA 標記：
-
-| 原書符號 | IPA |
-| :---: | :---: |
-| ṭ ḍ ṇ | ʈ ɖ ɳ |
-| ṣ ẓ | ʂ ʐ |
-| ś ź ń | ɕ ʑ ȵ |
-
-默認將 ṣ ẓ 記爲 ʂ ʐ 。取消 `OC_schuesslerLHC.schema.yaml` 中第 80、81 行的註釋可將其記爲 ʃ ʒ。
-
-| 擬音 | 轉寫 |
-| :---: | :---: |
-| 調類 | 不寫 |
-| ɑ | aa |
-| ɛ | ee |
-| ɔ | oo |
-| ə | y |
-| ɨ | r |
-| ɥ | y |
-| ʔ | x 或不寫 |
-| ʰ | h |
-| ŋ | ng |
-| ʈ ɖ ɳ | tr dr nr |
-| ʂ ʐ | sr zr |
-| tɕ ɕ ʑ ȵ | tch sh zh nh |
-| ɦ | hh 或 f |
-| ɣ | xx 或 v |
 | i、j | 可以混淆 |
 | u、w | 可以混淆 |

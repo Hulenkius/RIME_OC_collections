@@ -1,0 +1,152 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  name: 上古漢語（知乎新派）
+  schema_id: OC_NULLL
+  version: "2025.07.25"
+  author:
+    - hulenkius <hulenkius@gmail.com>
+    - github.com/Hulenkius/RIME_OC_collections
+  description: |
+    上古音輸入方案：知乎新派
+
+  dependencies:
+    - cangjie5
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba'
+  algebra:
+    - xform/(\*).+$// #將輸入碼範圍限定在音標前
+
+#    - derive/um/ym/ #可選項：um接受變體ym
+#    - derive/it/ik/ #可選項：it接受變體ik
+#    - derive/ik/it/ #可選項：ik接受變體it
+
+    - derive/(')(r|)(.)/
+    - derive/(')(r|)(.)/\2\3\3/ #非三等可記作VV
+    - derive/(')(r|)(.)(.*?)$/\2\3\4\1/ #非三等標記可後置
+    - derive/dz/z/ #dz可省作z
+    - derive/wh/hw/ #容錯
+    - derive/i/j/ #混淆i、j
+    - derive/j/i/
+    - derive/u/w/ #混淆u、w
+    - derive/w/u/
+    - derive/'r/r'/ #混淆次序：r介、非三等標記
+
+    - derive/ing(|.)$/in\1/ #真部可通作in
+    - derive/in(|.)$/ing\1/ #真部可通作ing
+    - derive/(.)(ng)/\1g/ #ng韻尾可簡作g
+
+    - xform/^r/R/ #R系大寫以與r介進行區分，排除r介後置重碼
+    - derive/^(.*?)r(.*?)$/\1\2r/ #r介可置於最後
+    - xform/R/r/ #將R系重新定義爲小寫
+
+    - derive/wk/kw/ #混淆wk、kw
+
+    - derive/(|p|t|k|h|s)(|w|s)(|')(|r)$/\1\2\3\4/
+    - derive/(|p|t|k|h|s)(|w|s)(|')(|r)$/\1\2\4\3/
+    - derive/(|p|t|k|h|s)(|w|s)(|')(|r)$/\1\3\2\4/
+    - derive/(|p|t|k|h|s)(|w|s)(|')(|r)$/\1\3\4\2/
+    - derive/(|p|t|k|h|s)(|w|s)(|')(|r)$/\1\4\2\3/
+    - derive/(|p|t|k|h|s)(|w|s)(|')(|r)$/\1\4\3\2/
+
+    - derive/(|p|t|k|h|s)(|w|s)(|')(|r)$/\2\1\3\4/
+    - derive/(|p|t|k|h|s)(|w|s)(|')(|r)$/\2\1\4\3/
+    - derive/(|p|t|k|h|s)(|w|s)(|')(|r)$/\2\3\1\4/
+    - derive/(|p|t|k|h|s)(|w|s)(|')(|r)$/\2\3\4\1/
+    - derive/(|p|t|k|h|s)(|w|s)(|')(|r)$/\2\4\1\3/
+    - derive/(|p|t|k|h|s)(|w|s)(|')(|r)$/\2\4\3\1/
+
+    - derive/(|p|t|k|h|s)(|w|s)(|')(|r)$/\3\1\2\4/
+    - derive/(|p|t|k|h|s)(|w|s)(|')(|r)$/\3\1\4\2/
+    - derive/(|p|t|k|h|s)(|w|s)(|')(|r)$/\3\2\1\4/
+    - derive/(|p|t|k|h|s)(|w|s)(|')(|r)$/\3\2\4\1/
+    - derive/(|p|t|k|h|s)(|w|s)(|')(|r)$/\3\4\1\2/
+    - derive/(|p|t|k|h|s)(|w|s)(|')(|r)$/\3\4\2\1/
+
+    - derive/(|p|t|k|h|s)(|w|s)(|')(|r)$/\4\1\2\3/
+    - derive/(|p|t|k|h|s)(|w|s)(|')(|r)$/\4\1\3\2/
+    - derive/(|p|t|k|h|s)(|w|s)(|')(|r)$/\4\2\1\3/
+    - derive/(|p|t|k|h|s)(|w|s)(|')(|r)$/\4\2\3\1/
+    - derive/(|p|t|k|h|s)(|w|s)(|')(|r)$/\4\3\1\2/
+    - derive/(|p|t|k|h|s)(|w|s)(|')(|r)$/\4\3\2\1/
+
+
+    - derive/'/f/ #非三等可記作f
+    - derive/'/v/ #非三等可記作v
+    - derive/'(.)/x\1/ #非三等可記作x
+    - derive/q/x/ #q可記作x
+    - derive/^q// #影母可不寫
+    - xform/C./c/
+    - derive/c//
+
+translator:
+  dictionary: OC_NULLL
+  prism: OC_NULLL
+  spelling_hints: 1
+  enable_completion: true
+  preedit_format:
+    - xform/(\*).+$//
+  comment_format:
+    - xform/^(.*)$/‹$1›
+    - xform/((\*).+)›/›\ $1/
+    - xform/⬅️/\ /
+
+reverse_lookup:
+  dictionary: cangjie5
+  enable_completion: true
+  prefix: "`"
+  suffix: "'"
+  tips: 〔倉頡〕
+  preedit_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+  comment_format:
+    - xform/^(.*)$/$1
+    - xform/((\*).+)/$1/
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"

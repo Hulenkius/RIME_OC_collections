@@ -4,7 +4,7 @@
 schema:
   name: 上古漢語（知乎新派）
   schema_id: OC_nulll
-  version: "2025.07.262"
+  version: "2025.07.263"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
@@ -58,6 +58,7 @@ speller:
 #    - derive/um/ym/ #可選項：um接受變體ym
 #    - derive/it/ik/ #可選項：it接受變體ik
 #    - derive/ik/it/ #可選項：ik接受變體it
+    - derive/([^aeiouy])h/\1s/ #除Vh、Vs區分之外，去聲可記作s
 
     - derive/(')(r|)(.)/
     - derive/(')(r|)(.)/\2\3\3/ #非三等可記作VV

@@ -4,12 +4,13 @@
 schema:
   name: 上古漢語（知乎新派）
   schema_id: OC_nulll
-  version: "2025.07.26"
+  version: "2025.07.262"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
   description: |
     上古音輸入方案：知乎新派
+    元部 *-r 改用 l 書寫
 
   dependencies:
     - cangjie5
@@ -69,6 +70,7 @@ speller:
     - derive/ing(|.)$/in\1/ #真部可通作in
     - derive/in(|.)$/ing\1/ #真部可通作ing
     - derive/(.)(ng)/\1g/ #ng韻尾可簡作g
+    - derive/ngh/gh/ #ngh-可簡作gh
 
     - xform/^C\.(.*)$/\1C/ #將C.後置以排除r介後置造成的編碼錯誤
     - xform/^r/R/ #R系大寫以與r介進行區分，排除r介後置重碼
@@ -78,40 +80,40 @@ speller:
     - derive/c// #C.可省略
     - derive/wk/kw/ #混淆wk、kw
 
-    - derive/(|p|t|k|h|s)(|s)(|')(|r)$/\1\2\3\4/
-    - derive/(|p|t|k|h|s)(|s)(|')(|r)$/\1\2\4\3/
-    - derive/(|p|t|k|h|s)(|s)(|')(|r)$/\1\3\2\4/
-    - derive/(|p|t|k|h|s)(|s)(|')(|r)$/\1\3\4\2/
-    - derive/(|p|t|k|h|s)(|s)(|')(|r)$/\1\4\2\3/
-    - derive/(|p|t|k|h|s)(|s)(|')(|r)$/\1\4\3\2/
+    - derive/(|p|t|k|h|s|l)(|s)(|')(|r)$/\1\2\3\4/
+    - derive/(|p|t|k|h|s|l)(|s)(|')(|r)$/\1\2\4\3/
+    - derive/(|p|t|k|h|s|l)(|s)(|')(|r)$/\1\3\2\4/
+    - derive/(|p|t|k|h|s|l)(|s)(|')(|r)$/\1\3\4\2/
+    - derive/(|p|t|k|h|s|l)(|s)(|')(|r)$/\1\4\2\3/
+    - derive/(|p|t|k|h|s|l)(|s)(|')(|r)$/\1\4\3\2/
 
-    - derive/(|p|t|k|h|s)(|s)(|')(|r)$/\2\1\3\4/
-    - derive/(|p|t|k|h|s)(|s)(|')(|r)$/\2\1\4\3/
-    - derive/(|p|t|k|h|s)(|s)(|')(|r)$/\2\3\1\4/
-    - derive/(|p|t|k|h|s)(|s)(|')(|r)$/\2\3\4\1/
-    - derive/(|p|t|k|h|s)(|s)(|')(|r)$/\2\4\1\3/
-    - derive/(|p|t|k|h|s)(|s)(|')(|r)$/\2\4\3\1/
+    - derive/(|p|t|k|h|s|l)(|s)(|')(|r)$/\2\1\3\4/
+    - derive/(|p|t|k|h|s|l)(|s)(|')(|r)$/\2\1\4\3/
+    - derive/(|p|t|k|h|s|l)(|s)(|')(|r)$/\2\3\1\4/
+    - derive/(|p|t|k|h|s|l)(|s)(|')(|r)$/\2\3\4\1/
+    - derive/(|p|t|k|h|s|l)(|s)(|')(|r)$/\2\4\1\3/
+    - derive/(|p|t|k|h|s|l)(|s)(|')(|r)$/\2\4\3\1/
 
-    - derive/(|p|t|k|h|s)(|s)(|')(|r)$/\3\1\2\4/
-    - derive/(|p|t|k|h|s)(|s)(|')(|r)$/\3\1\4\2/
-    - derive/(|p|t|k|h|s)(|s)(|')(|r)$/\3\2\1\4/
-    - derive/(|p|t|k|h|s)(|s)(|')(|r)$/\3\2\4\1/
-    - derive/(|p|t|k|h|s)(|s)(|')(|r)$/\3\4\1\2/
-    - derive/(|p|t|k|h|s)(|s)(|')(|r)$/\3\4\2\1/
+    - derive/(|p|t|k|h|s|l)(|s)(|')(|r)$/\3\1\2\4/
+    - derive/(|p|t|k|h|s|l)(|s)(|')(|r)$/\3\1\4\2/
+    - derive/(|p|t|k|h|s|l)(|s)(|')(|r)$/\3\2\1\4/
+    - derive/(|p|t|k|h|s|l)(|s)(|')(|r)$/\3\2\4\1/
+    - derive/(|p|t|k|h|s|l)(|s)(|')(|r)$/\3\4\1\2/
+    - derive/(|p|t|k|h|s|l)(|s)(|')(|r)$/\3\4\2\1/
 
-    - derive/(|p|t|k|h|s)(|s)(|')(|r)$/\4\1\2\3/
-    - derive/(|p|t|k|h|s)(|s)(|')(|r)$/\4\1\3\2/
-    - derive/(|p|t|k|h|s)(|s)(|')(|r)$/\4\2\1\3/
-    - derive/(|p|t|k|h|s)(|s)(|')(|r)$/\4\2\3\1/
-    - derive/(|p|t|k|h|s)(|s)(|')(|r)$/\4\3\1\2/
-    - derive/(|p|t|k|h|s)(|s)(|')(|r)$/\4\3\2\1/
+    - derive/(|p|t|k|h|s|l)(|s)(|')(|r)$/\4\1\2\3/
+    - derive/(|p|t|k|h|s|l)(|s)(|')(|r)$/\4\1\3\2/
+    - derive/(|p|t|k|h|s|l)(|s)(|')(|r)$/\4\2\1\3/
+    - derive/(|p|t|k|h|s|l)(|s)(|')(|r)$/\4\2\3\1/
+    - derive/(|p|t|k|h|s|l)(|s)(|')(|r)$/\4\3\1\2/
+    - derive/(|p|t|k|h|s|l)(|s)(|')(|r)$/\4\3\2\1/
 
     - derive/i/j/ #混淆i、j
     - derive/j/i/
     - derive/u/w/ #混淆u、w
     - derive/w/u/
-    - derive/'/f/ #非三等可記作f
-    - derive/'/v/ #非三等可記作v
+    - derive/(a|e|i|o|u|y)(.*)'/\1\2f/ #非三等可記作後置f
+    - derive/(a|e|i|o|u|y)(.*)'/\1\2v/ #非三等可記作後置v
     - derive/'(.)/x\1/ #非三等可記作x
     - derive/q/x/ #q可記作x
     - derive/^q// #影母可不寫

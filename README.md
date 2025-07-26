@@ -14,7 +14,7 @@
 
 目前已製作下列方案：
 
-- [知乎新派（NULLL表格）](nulll.md)
+- [知乎新派（Nulll 表格）](nulll.md)
 - [msoeg 擬音（含《廣韻形聲考》）](msoeg.md)
 - [白一平-沙加爾擬音](baxter-sagart.md)
 - [許思萊擬音](shuessler.md)

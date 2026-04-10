@@ -10,7 +10,7 @@
 
 三拼鍵位如下圖所示，設計思路與polyhedron中古三拼類似，以便慣用中古三拼者快速適應：
 
-<img width="597" height="751" alt="image" src="https://github.com/user-attachments/assets/e7403b45-6c90-46d1-b293-089a387672f4" />
+<img width="592" height="750" alt="image" src="https://github.com/user-attachments/assets/d326e954-7d39-4d15-a25b-8ed2bf82fa77" />
 
 例：
 | 字 | 音 | 碼 |

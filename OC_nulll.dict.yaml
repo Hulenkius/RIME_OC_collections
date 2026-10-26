@@ -1,6 +1,6 @@
 ---
 name: OC_nulll
-version: "2026.09.21"
+version: "2026.10.21"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -435,7 +435,7 @@ use_preset_vocabulary: true
 踞	krah*krah
 居	krah*krah⬅️踞坐；安居；居所；處理；居居，不相親近
 墟	khra*kʰra
-籧	gra*ga
+籧	gra*gra
 秬	graq*graʔ
 苣	graq*graʔ
 炬	graq*graʔ
@@ -916,7 +916,6 @@ use_preset_vocabulary: true
 忘	mang*maŋ
 望	mang*maŋ
 朢	mang*maŋ
-惘	mang*maŋ
 芒	mang*maŋ⬅️芒芒，廣大遼闊；句芒，木神
 莣	mang*maŋ
 杗	mang*maŋ
@@ -927,6 +926,7 @@ use_preset_vocabulary: true
 𣶈	mangq*maŋʔ⬅️𣶈瀁，水盛貌
 輞	mangq*maŋʔ
 魍	mangq*maŋʔ
+惘	mangq*maŋʔ
 妄	mangh*maŋh
 望	mangh*maŋh⬅️聲望，威望
 忘	mangh*maŋh⬅️玩忽；健忘
@@ -1363,12 +1363,12 @@ use_preset_vocabulary: true
 𧽢	p'ak*pˤak
 𩌏	p'ak*pˤak
 䍸	p'ak*pˤak
+胉	p'ak*pˤak
 旁	ph'ang*pʰˤaŋ⬅️旁薄
 滂	ph'ang*pʰˤaŋ
 雱	ph'ang*pʰˤaŋ
 蒪	ph'ak*pʰˤak
 膊	ph'ak*pʰˤak
-胉	ph'ak*pʰˤak
 粕	ph'ak*pʰˤak
 䪙	ph'ak*pʰˤak
 旁	b'ang*bˤaŋ
@@ -1428,6 +1428,7 @@ use_preset_vocabulary: true
 鏜	th'ang*tʰˤaŋ
 閶	th'ang*tʰˤaŋ⬅️鏜
 蝪	th'ang*tʰˤaŋ
+鐺	th'ang*tʰˤaŋ
 儻	th'angq*tʰˤaŋʔ
 倘	th'angq*tʰˤaŋʔ
 曭	th'angq*tʰˤaŋʔ
@@ -1875,7 +1876,6 @@ use_preset_vocabulary: true
 𤝻	laj*laj
 簃	laj*laj
 栘	laj*laj
-扡	lajq*lajʔ
 迤	lajq*lajʔ⬅️斜
 匜	lajq*lajʔ
 拸	lajq*lajʔ
@@ -1919,8 +1919,8 @@ use_preset_vocabulary: true
 罹	raj*raj
 醨	raj*raj⬅️薄酒
 樆	raj*raj
-詈	raj*raj
 邐	rajq*rajʔ
+詈	rajh*rajh
 離	rajh*rajh⬅️去除；相離
 例	ras*ras
 癘	ras*ras
@@ -2047,6 +2047,7 @@ use_preset_vocabulary: true
 𩚉	lraj*lraj
 阤	lrajq*lrajʔ
 杝	lrajq*lrajʔ⬅️順著紋理劈開
+扡	lrajq*lrajʔ
 彘	lras*lras⬅️豬
 胣	lhrajq*l̥rajʔ
 迣	lhras*l̥ras⬅️超越
@@ -2070,9 +2071,9 @@ use_preset_vocabulary: true
 讆	wras*wras
 餲	qras*ʔras
 波	p'aj*pˤaj
-跛	p'aj*pˤaj⬅️瘸，形容詞
 嶓	p'aj*pˤaj
 紴	p'aj*pˤaj
+跛	p'ajq*pˤajʔ⬅️瘸，形容詞
 簸	p'ajq*pˤajʔ
 貝	p'as*pˤas
 䰽	p'as*pˤas
@@ -2235,7 +2236,6 @@ use_preset_vocabulary: true
 靄	q'as*ʔˤas
 䵳	qw'as*ʔwˤas
 懀	qw'as*ʔwˤas
-擺	p'rajq*pˤrajʔ
 敗	p'ras*pˤras⬅️破他
 罷	b'rajq*bˤrajʔ
 敗	b'ras*bˤras⬅️自破
@@ -2271,7 +2271,7 @@ use_preset_vocabulary: true
 枷	k'rajh*kˤrajh⬅️衣架
 架	k'rajh*kˤrajh⬅️衣架
 犗	k'ras*kˤras
-芥	k'ras*kˤras⬅️雜草
+芥	k'ras*kˤras
 㰤	kh'raj*kʰˤraj
 疴	kh'rajh*kʰˤrajh
 閜	h'rajq*hˤrajʔ
@@ -2288,7 +2288,6 @@ use_preset_vocabulary: true
 藩	pal*par
 轓	pal*par
 賁	palh*parh⬅️卦
-販	palh*parh
 番	phal*pʰar
 潘	phal*pʰar⬅️淘米水
 幡	phal*pʰar⬅️翻覆；翻動；輕率
@@ -2332,7 +2331,7 @@ use_preset_vocabulary: true
 健	galh*garh
 甗	ngal*ŋar
 巘	ngalq*ŋarʔ
-獻	nghal*ŋ̊ar
+獻	nghalh*ŋ̊arh
 憲	hal*har
 幰	halq*harʔ
 瀗	halh*harh
@@ -2419,6 +2418,7 @@ use_preset_vocabulary: true
 阪	panq*panʔ
 坂	panq*panʔ
 䡊	panq*panʔ
+販	panh*panh
 發	pat*pat
 翻	phan*pʰan
 拚	phan*pʰan⬅️翻
@@ -2452,6 +2452,7 @@ use_preset_vocabulary: true
 娩	manq*manʔ⬅️柔順、美好
 輓	manq*manʔ
 挽	manq*manʔ
+梚	manq*manʔ
 萬	manh*manh
 万	manh*manh
 䡬	manh*manh
@@ -2659,7 +2660,6 @@ use_preset_vocabulary: true
 葂	mranq*mranʔ
 冕	mranq*mranʔ
 娩	mranq*mranʔ⬅️生子
-幭	mrat*mrat
 邅	tran*tran
 鱣	tran*tran
 展	tranq*tranʔ
@@ -2749,6 +2749,7 @@ use_preset_vocabulary: true
 媻	b'an*bˤan
 幋	b'an*bˤan
 磐	b'an*bˤan
+胖	b'an*bˤan⬅️心寬體胖
 拌	b'anh*bˤanh
 伴	b'anh*bˤanh
 叛	b'anh*bˤanh
@@ -2803,6 +2804,7 @@ use_preset_vocabulary: true
 袒	d'anq*dˤanʔ
 潬	d'anq*dˤanʔ
 澶	d'anh*dˤanh⬅️澶漫，放縱
+臡	n'an*nˤan
 贊	ts'anh*tsˤanh
 賛	ts'anh*tsˤanh
 𧄽	ts'anh*tsˤanh
@@ -3383,6 +3385,7 @@ use_preset_vocabulary: true
 濼	lawk*lawk⬅️草名，貫衆
 櫟	lawk*lawk⬅️櫟陽
 爚	lawk*lawk
+𤄶	lawk*lawk
 爍	lhawk*l̥awk
 鑠	lhawk*l̥awk
 櫟	lhawk*l̥awk⬅️晉地；楚地
@@ -3447,7 +3450,6 @@ use_preset_vocabulary: true
 巢	dzraw*dzraw
 轈	dzraw*dzraw
 兆	lrawq*lrawʔ
-旐	lrawq*lrawʔ
 狣	lrawq*lrawʔ
 肇	lrawq*lrawʔ
 襮	p'awk*pˤawk
@@ -3555,6 +3557,7 @@ use_preset_vocabulary: true
 号	g'awh*gˤawh
 鶴	g'awk*gˤawk
 敖	ng'aw*ŋˤaw
+囂	ng'aw*ŋˤaw
 嗸	ng'aw*ŋˤaw
 嗷	ng'aw*ŋˤaw
 遨	ng'aw*ŋˤaw
@@ -3924,7 +3927,6 @@ use_preset_vocabulary: true
 禘	d'eh*dˤeh
 踶	d'eh*dˤeh
 遰	d'es*dˤes⬅️去往
-臡	n'e*nˤe
 檷	n'eq*nˤeʔ
 薾	n'eq*nˤeʔ
 濔	n'eq*nˤeʔ⬅️濔濔，多
@@ -4089,7 +4091,6 @@ use_preset_vocabulary: true
 个	k'res*kˤres
 价	k'res*kˤres
 玠	k'res*kˤres
-芥	k'res*kˤres⬅️芥菜
 魀	k'res*kˤres
 恝	k'res*kˤres
 疥	k'res*kˤres
@@ -4256,7 +4257,6 @@ use_preset_vocabulary: true
 𨍶	gweng*gweŋ
 塋	weng*weŋ
 營	weng*weŋ
-巆	weng*weŋ
 謍	weng*weŋ
 潁	wengq*weŋʔ
 穎	wengq*weŋʔ
@@ -4314,6 +4314,7 @@ use_preset_vocabulary: true
 甥	sreng*sreŋ
 狌	sreng*sreŋ
 猩	sreng*sreŋ
+鉎	sreng*sreŋ
 省	srengq*sreŋʔ⬅️減
 眚	srengq*sreŋʔ
 渻	srengq*sreŋʔ
@@ -4375,6 +4376,7 @@ use_preset_vocabulary: true
 辟	b'ek*bˤek⬅️內棺
 甓	b'ek*bˤek
 椑	b'ek*bˤek⬅️內棺
+鸊	b'ek*bˤek
 銘	m'eng*mˤeŋ
 冥	m'eng*mˤeŋ
 瞑	m'eng*mˤeŋ
@@ -4655,6 +4657,7 @@ use_preset_vocabulary: true
 劃	w'rek*wˤrek
 轟	wh'reng*ẘˤreŋ
 輷	wh'reng*ẘˤreŋ
+巆	wh'reng*ẘˤreŋ
 騞	wh'rek*ẘˤrek
 繣	wh'rek*ẘˤrek⬅️緯繣
 櫻	q'reng*ʔˤreŋ
@@ -4678,7 +4681,6 @@ use_preset_vocabulary: true
 𩚬	q'rek*ʔˤrek
 鞭	pen*pen
 鯾	pen*pen
-編	pen*pen
 箯	pen*pen
 便	pen*pen⬅️地名，屬桂陽
 褊	penq*penʔ
@@ -4783,6 +4785,7 @@ use_preset_vocabulary: true
 辯	brenq*brenʔ
 諞	brenq*brenʔ
 別	bret*bret⬅️差別；離別，自動；分支；另外
+幭	mret*mret
 輾	trenq*trenʔ
 哲	tret*tret
 悊	tret*tret
@@ -4816,7 +4819,6 @@ use_preset_vocabulary: true
 撆	ph'et*pʰˤet
 撇	ph'et*pʰˤet
 鐅	ph'et*pʰˤet
-胼	b'en*bˤen
 跰	b'en*bˤen
 楄	b'en*bˤen
 蹁	b'en*bˤen
@@ -5207,6 +5209,7 @@ use_preset_vocabulary: true
 窑	lew*lew
 䠛	lew*lew
 銚	lew*lew
+搖	lew*lew⬅️漂搖，狂風吹拂
 龠	lewk*lewk
 籥	lewk*lewk
 禴	lewk*lewk
@@ -5246,6 +5249,8 @@ use_preset_vocabulary: true
 筲	srew*srew
 䈰	srew*srew
 稍	srewh*srewh
+娋	srewh*srewh
+旐	lrewq*lrewʔ
 鮡	lrewq*lrewʔ
 刁	t'ew*tˤew
 貂	t'ew*tˤew
@@ -5618,6 +5623,7 @@ use_preset_vocabulary: true
 䰡	lhrih*l̥rih
 訵	lhris*l̥ris
 肌	kri*kri
+蓍	kri*kri
 麂	kriq*kriʔ
 𪊨	kriq*kriʔ
 䢳	kriq*kriʔ
@@ -5627,6 +5633,7 @@ use_preset_vocabulary: true
 懿	qrih*ʔrih
 饐	qris*ʔris
 鷧	qris*ʔris
+撎	qris*ʔris
 蓖	p'i*pˤi
 螕	p'i*pˤi
 狴	p'i*pˤi
@@ -5881,6 +5888,7 @@ use_preset_vocabulary: true
 虙	p'ik*pˤik
 骿	b'ing*bˤiŋ
 駢	b'ing*bˤiŋ
+胼	b'ing*bˤiŋ
 飶	b'ik*bˤik
 顛	t'ing*tˤiŋ
 蹎	t'ing*tˤiŋ
@@ -5905,7 +5913,6 @@ use_preset_vocabulary: true
 臷	d'ik*dˤik
 姪	d'ik*dˤik
 侄	d'ik*dˤik
-恎	d'ik*dˤik
 年	n'ing*nˤiŋ
 佞	n'ing*nˤiŋ
 涅	n'ik*nˤik
@@ -6362,7 +6369,6 @@ use_preset_vocabulary: true
 褭	n'iwq*nˤiwʔ
 惄	n'iwk*nˤiwk
 愵	n'iwk*nˤiwk
-戚	tsh'iwk*tsʰˤiwk⬅️一種兵器；姓
 寂	dz'iwk*dzˤiwk
 𠴫	dz'iwk*dzˤiwk
 蕭	s'iw*sˤiw
@@ -6382,11 +6388,7 @@ use_preset_vocabulary: true
 鞗	l'iw*lˤiw
 鋚	l'iw*lˤiw
 蓧	l'iwh*lˤiwh⬅️除草農具
-迪	l'iwk*lˤiwk
-篴	l'iwk*lˤiwk
-笛	l'iwk*lˤiwk
 滌	l'iwk*lˤiwk
-邮	l'iwk*lˤiwk⬅️地名
 蓧	lh'iw*l̥ˤiw⬅️即蓨，羊蹄草
 條	lh'iw*l̥ˤiw⬅️砍伐；采摘
 蓨	lh'iwk*l̥ˤiwk
@@ -6569,10 +6571,10 @@ use_preset_vocabulary: true
 食	slyh*sləh⬅️餵食；供品；宴請；給俸祿；利誘
 飼	slyh*sləh
 辭	slyh*sləh⬅️辭別，推辭，迴避；責備
+漦	mly*mlə⬅️滲流；涎沫
 釐	ry*rə
 厘	ry*rə
 犛	ry*rə
-漦	ry*rə
 斄	ry*rə
 嫠	ry*rə
 剺	ry*rə
@@ -6984,6 +6986,8 @@ use_preset_vocabulary: true
 霾	m'ry*mˤrə
 薶	m'ry*mˤrə
 豺	dz'ry*dzˤrə
+斄	rh'y*r̥ˤə⬅️地名
+漦	rh'y*r̥ˤə⬅️地名
 誡	k'ryh*kˤrəh
 戒	k'ryh*kˤrəh⬅️準備；出發；戒除；命令；告請；陰部
 骸	g'ry*gˤrə
@@ -7154,7 +7158,7 @@ use_preset_vocabulary: true
 副	phryk*pʰrək⬅️割裂、剖分
 疈	phryk*pʰrək
 堛	phryk*pʰrək
-揊	phryk*pʰrək
+㨽	phryk*pʰrək
 𩜰	phryk*pʰrək
 馮	bryng*brəŋ
 憑	bryng*brəŋ
@@ -7308,6 +7312,7 @@ use_preset_vocabulary: true
 繃	p'ryng*pˤrəŋ
 棚	b'ryng*bˤrəŋ
 輣	b'ryng*bˤrəŋ
+弸	b'ryng*bˤrəŋ
 甍	m'ryng*mˤrəŋ
 萌	m'ryng*mˤrəŋ⬅️萌發；鋤去；萌萌，保全、存在
 氓	m'ryng*mˤrəŋ
@@ -7430,6 +7435,7 @@ use_preset_vocabulary: true
 旣	kys*kəs
 旡	kys*kəs
 豈	khyjq*kʰəjʔ
+䔇	khyjq*kʰəjʔ
 氣	khys*kʰəs
 乞	khys*kʰəs⬅️給
 畿	gyj*gəj
@@ -7512,7 +7518,7 @@ use_preset_vocabulary: true
 媺	mryjq*mrəjʔ
 媚	mryjh*mrəjh
 魅	mrys*mrəs
-𥘯	mrys*mrəs
+祙	mrys*mrəs
 胝	tryj*trəj
 黹	tryjq*trəjʔ
 坻	dryj*drəj⬅️小洲
@@ -7957,6 +7963,7 @@ use_preset_vocabulary: true
 鄞	ngryn*ŋrən
 圁	ngryn*ŋrən
 齗	ngrynq*ŋrənʔ⬅️齗狋
+𪙤	ngrynq*ŋrənʔ
 憖	ngrynh*ŋrənh
 猌	ngrynh*ŋrənh
 屈	gwryt*gwrət⬅️狂屈
@@ -8027,6 +8034,7 @@ use_preset_vocabulary: true
 豤	kh'ynq*kʰˤənʔ
 頎	kh'ynq*kʰˤənʔ
 鞎	g'yn*gˤən
+痕	g'yn*gˤən
 很	g'ynq*gˤənʔ
 狠	g'ynq*gˤənʔ
 佷	g'ynq*gˤənʔ
@@ -8053,6 +8061,8 @@ use_preset_vocabulary: true
 渢	bym*bəm
 芃	bym*bəm
 斟	tym*təm
+審	stymq*stəmʔ
+瀋	thymq*tʰəmʔ
 煁	dym*dəm⬅️爐
 湛	dym*dəm⬅️河名
 葚	dym*dəm
@@ -8323,7 +8333,7 @@ use_preset_vocabulary: true
 罯	q'yp*ʔˤəp
 鞥	q'yp*ʔˤəp
 搕	q'yp*ʔˤəp
-湛	d'rymq*dˤrəmʔ⬅️清澈
+湛	d'rymq*dˤrəmʔ⬅️深厚，濃重；清澈
 讒	dz'rym*dzˤrəm
 酁	dz'rym*dzˤrəm
 瀺	dz'rymq*dzˤrəmʔ
@@ -8724,6 +8734,7 @@ use_preset_vocabulary: true
 後	g'oq*gˤoʔ
 后	g'oq*gˤoʔ
 詬	g'oq*gˤoʔ⬅️謑詬，辱罵
+郈	g'oq*gˤoʔ
 候	g'oh*gˤoh
 堠	g'oh*gˤoh
 後	g'oh*gˤoh⬅️落於後
@@ -8782,7 +8793,6 @@ use_preset_vocabulary: true
 詬	kh'roh*kʰˤroh⬅️喫詬，強壯
 滱	kh'roh*kʰˤroh
 厚	g'roq*gˤroʔ
-郈	g'roq*gˤroʔ
 逅	g'roh*gˤroh
 厚	g'roh*gˤroh⬅️厚度
 偶	ng'roq*ŋˤroʔ
@@ -8800,6 +8810,7 @@ use_preset_vocabulary: true
 峰	phong*pʰoŋ
 峯	phong*pʰoŋ
 夆	phong*pʰoŋ
+犎	phong*pʰoŋ
 捧	phongq*pʰoŋʔ
 丰	phongh*pʰoŋh⬅️容貌豊潤
 逢	bong*boŋ
@@ -8897,7 +8908,8 @@ use_preset_vocabulary: true
 桶	longq*loŋʔ⬅️量器，受六斗
 用	longh*loŋh⬅️役使、施展；治理、管理
 粟	lhok*l̥ok
-誦	slongh*sloŋh
+誦	slong*sloŋ⬅️名詞
+誦	slongh*sloŋh⬅️動詞
 續	slok*slok
 藚	slok*slok
 鱅	mlong*mloŋ⬅️食用魚
@@ -9133,7 +9145,6 @@ use_preset_vocabulary: true
 讀	l'ok*lˤok
 讟	l'ok*lˤok
 櫝	l'ok*lˤok
-覿	l'ok*lˤok
 䢱	l'ok*lˤok
 殰	l'ok*lˤok
 黷	l'ok*lˤok
@@ -9685,6 +9696,7 @@ use_preset_vocabulary: true
 𨏉	sron*sron
 刷	srot*srot
 椽	lron*lron
+掾	lron*lron⬅️馳逐
 瑑	lronq*lronʔ
 篆	lronq*lronʔ
 腞	lronq*lronʔ⬅️瑑
@@ -9870,7 +9882,6 @@ use_preset_vocabulary: true
 捾	q'ot*ʔˤot
 拔	b'rot*bˤrot
 蠻	m'ron*mˤron
-𪈿	m'ron*mˤron
 鵽	t'rot*tˤrot
 窡	t'rot*tˤrot
 篡	tsh'ronh*tsʰˤronh
@@ -10006,6 +10017,9 @@ use_preset_vocabulary: true
 繇	lu*lu
 㽕	lu*lu
 斿	lu*lu
+卣	lu*lu
+逌	lu*lu⬅️閒適自得
+攸	lu*lu
 牖	luq*luʔ
 誘	luq*luʔ
 莠	luq*luʔ
@@ -10064,14 +10078,11 @@ use_preset_vocabulary: true
 猶	ju*ju
 莤	ju*ju
 蕕	ju*ju
-卣	ju*ju
 輶	ju*ju
 楢	ju*ju
 庮	ju*ju
 眈	ju*ju⬅️虎視眈眈
 揂	ju*ju
-逌	ju*ju⬅️閒適自得
-攸	ju*ju
 酉	juq*juʔ
 猷	juq*juʔ⬅️道，法則；謀略，計劃
 猶	juq*juʔ⬅️道，法則；欺詐，責怪；謀略，計劃
@@ -10549,7 +10560,7 @@ use_preset_vocabulary: true
 宗	ts'ung*tsˤuŋ
 綜	ts'ungh*tsˤuŋh
 宗	ts'ungh*tsˤuŋh⬅️作宗主
-戚	tsh'uk*tsʰˤuk⬅️斧；憂愁；親密
+戚	tsh'uk*tsʰˤuk
 鏚	tsh'uk*tsʰˤuk
 慼	tsh'uk*tsʰˤuk
 傶	tsh'uk*tsʰˤuk
@@ -10564,6 +10575,11 @@ use_preset_vocabulary: true
 赨	l'ung*lˤuŋ
 痋	l'ung*lˤuŋ
 疼	l'ung*lˤuŋ
+迪	l'uk*lˤuk
+覿	l'uk*lˤuk
+篴	l'uk*lˤuk
+笛	l'uk*lˤuk
+邮	l'uk*lˤuk⬅️地名
 告	k'uk*kˤuk⬅️告訴；休假
 梏	k'uk*kˤuk
 牿	k'uk*kˤuk
@@ -10723,8 +10739,6 @@ use_preset_vocabulary: true
 啍	th'uj*tʰˤuj⬅️啍啍，車行聲
 魋	d'uj*dˤuj
 㢑	d'uj*dˤuj
-憝	d'ujh*dˤujh
-譈	d'ujh*dˤujh
 餧	n'ujq*nˤujʔ
 餒	n'ujq*nˤujʔ
 妥	nh'uj*n̥ˤuj
@@ -11104,6 +11118,8 @@ use_preset_vocabulary: true
 錞	d'unh*dˤunh⬅️鐏
 鐓	d'unh*dˤunh
 憞	d'unh*dˤunh
+憝	d'unh*dˤunh
+譈	d'unh*dˤunh
 臑	n'unh*nˤunh⬅️肉醬
 訥	n'ut*nˤut
 吶	n'ut*nˤut
@@ -11232,8 +11248,6 @@ use_preset_vocabulary: true
 枕	tumh*tumh⬅️以頭枕物
 沈	stumq*stumʔ⬅️諸侯
 邥	stumq*stumʔ
-審	stumq*stumʔ
-瀋	thumq*tʰumʔ
 諶	dum*dum
 忱	dum*dum
 荏	num*num⬅️大豆
@@ -11330,7 +11344,7 @@ use_preset_vocabulary: true
 隌	q'umq*ʔˤumʔ
 闇	q'umh*ʔˤumh
 暗	q'umh*ʔˤumh
-湛	d'rumq*dˤrumʔ⬅️深厚，濃重；水不流，洪水；濕潤
+湛	d'rumq*dˤrumʔ⬅️水不流，洪水；濕潤
 𪒹	k'rum*kˤrum
 貪	ngh'rum*ŋ̊ˤrum
 嗿	ngh'rumq*ŋ̊ˤrumʔ
